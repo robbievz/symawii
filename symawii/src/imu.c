@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "lib_fp.h"
 
 // project file headers
-#include "bradwii.h"
+#include "symawii.h"
 #include "gyro.h"
 #include "accelerometer.h"
 #include "baro.h"

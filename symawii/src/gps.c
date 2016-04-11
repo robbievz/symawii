@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "gps.h"
 #include "defs.h"
 #include "lib_serial.h"
-#include "bradwii.h"
+#include "symawii.h"
 #include "lib_i2c.h"
 #include "lib_timers.h"
 

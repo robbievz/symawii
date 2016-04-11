@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "lib_timers.h"
 #include "rx.h"
 #include "lib_fp.h"
-#include "bradwii.h"
+#include "symawii.h"
 
 extern globalstruct global;
 

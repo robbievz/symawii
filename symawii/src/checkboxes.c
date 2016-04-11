@@ -16,7 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include "checkboxes.h"
-#include "bradwii.h"
+#include "symawii.h"
 #include "rx.h"
 #include "lib_timers.h"
 #include "config.h"

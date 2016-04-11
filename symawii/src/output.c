@@ -17,7 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "output.h"
 #include "projectsettings.h"
-#include "bradwii.h"
+#include "symawii.h"
 #include "lib_timers.h"
 #include "drv_pwm.h"
 
