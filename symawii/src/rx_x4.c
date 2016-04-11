@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "bradwii.h"
+#include "symawii.h"
 #include "rx.h"
 #include "lib_soft_3_wire_spi.h"
 #include "lib_timers.h"
