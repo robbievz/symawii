@@ -1,0 +1,1530 @@
+Archive member included because of file (symbol)
+
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                              lib-Mini51/StdDriver/src/i2c.o (__gnu_thumb1_case_uqi)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+                              lib-Mini51/hal/lib_timers.o (__aeabi_uidiv)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+                              src/bradwii.o (__aeabi_idiv)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o)
+                              lib-Mini51/StdDriver/src/timer.o (__aeabi_f2uiz)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+                              lib-Mini51/StdDriver/src/timer.o (__aeabi_fdiv)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+                              lib-Mini51/StdDriver/src/timer.o (__aeabi_fmul)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subsf3.o)
+                              /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o) (__aeabi_fsub)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixsfsi.o)
+                              /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o) (__aeabi_f2iz)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+                              lib-Mini51/StdDriver/src/timer.o (__aeabi_ui2f)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                              /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o) (__aeabi_fcmpge)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+                              /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o) (__clzsi2)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+                              /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o) (__eqsf2)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+                              /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o) (__gesf2)
+/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+                              /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o) (__lesf2)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 src/a7105.o
+ .data          0x0000000000000000        0x0 src/a7105.o
+ .bss           0x0000000000000000        0x0 src/a7105.o
+ .text.A7105_ReadID
+                0x0000000000000000       0x26 src/a7105.o
+ .text          0x0000000000000000        0x0 src/accelerometer.o
+ .data          0x0000000000000000        0x0 src/accelerometer.o
+ .bss           0x0000000000000000        0x0 src/accelerometer.o
+ .text          0x0000000000000000        0x0 src/autotune.o
+ .text          0x0000000000000000        0x0 src/bradwii.o
+ .data          0x0000000000000000        0x0 src/bradwii.o
+ .text          0x0000000000000000        0x0 src/checkboxes.o
+ .data          0x0000000000000000        0x0 src/checkboxes.o
+ .text          0x0000000000000000        0x0 src/eeprom.o
+ .data          0x0000000000000000        0x0 src/eeprom.o
+ .bss           0x0000000000000000        0x0 src/eeprom.o
+ .text          0x0000000000000000        0x0 src/gyro.o
+ .data          0x0000000000000000        0x0 src/gyro.o
+ .bss           0x0000000000000000        0x0 src/gyro.o
+ .text          0x0000000000000000        0x0 src/imu.o
+ .data          0x0000000000000000        0xc src/imu.o
+ .text          0x0000000000000000        0x0 src/leds.o
+ .data          0x0000000000000000        0x0 src/leds.o
+ .bss           0x0000000000000000        0x0 src/leds.o
+ .text          0x0000000000000000        0x0 src/output.o
+ .data          0x0000000000000000        0x0 src/output.o
+ .bss           0x0000000000000000        0x0 src/output.o
+ .text.setoutput
+                0x0000000000000000        0xa src/output.o
+ .text          0x0000000000000000        0x0 src/pilotcontrol.o
+ .data          0x0000000000000000        0x0 src/pilotcontrol.o
+ .text          0x0000000000000000        0x0 src/serial.o
+ .data          0x0000000000000000        0x0 src/serial.o
+ .bss           0x0000000000000000        0x0 src/serial.o
+ .text.serialinit
+                0x0000000000000000        0x2 src/serial.o
+ .text.serialprintnumber
+                0x0000000000000000       0x78 src/serial.o
+ .text.serialprintfixedpoint
+                0x0000000000000000       0x2c src/serial.o
+ .text.serialprintfixedpoint_no_linebreak
+                0x0000000000000000       0x20 src/serial.o
+ .text.serialcheckforaction
+                0x0000000000000000        0x2 src/serial.o
+ .rodata.str1.1
+                0x0000000000000000        0x3 src/serial.o
+ .debug_info    0x0000000000000000      0x2ae src/serial.o
+ .debug_abbrev  0x0000000000000000      0x152 src/serial.o
+ .debug_loc     0x0000000000000000      0x183 src/serial.o
+ .debug_aranges
+                0x0000000000000000       0x40 src/serial.o
+ .debug_ranges  0x0000000000000000       0x30 src/serial.o
+ .debug_line    0x0000000000000000      0x19e src/serial.o
+ .debug_str     0x0000000000000000      0x250 src/serial.o
+ .comment       0x0000000000000000       0x71 src/serial.o
+ .debug_frame   0x0000000000000000       0x88 src/serial.o
+ .ARM.attributes
+                0x0000000000000000       0x31 src/serial.o
+ .text          0x0000000000000000        0x0 src/rx_x4.o
+ .data          0x0000000000000000        0x0 src/rx_x4.o
+ .text          0x0000000000000000        0x0 src/vectors.o
+ .data          0x0000000000000000        0x0 src/vectors.o
+ .bss           0x0000000000000000        0x0 src/vectors.o
+ .text.vectordotproduct
+                0x0000000000000000       0x26 src/vectors.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/drv_gpio.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/drv_gpio.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/hal/drv_gpio.o
+ .debug_info    0x0000000000000000       0x87 lib-Mini51/hal/drv_gpio.o
+ .debug_abbrev  0x0000000000000000       0x26 lib-Mini51/hal/drv_gpio.o
+ .debug_aranges
+                0x0000000000000000       0x18 lib-Mini51/hal/drv_gpio.o
+ .debug_line    0x0000000000000000       0x1d lib-Mini51/hal/drv_gpio.o
+ .debug_str     0x0000000000000000      0x195 lib-Mini51/hal/drv_gpio.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/drv_gpio.o
+ .ARM.attributes
+                0x0000000000000000       0x31 lib-Mini51/hal/drv_gpio.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/drv_hal.o
+ .data          0x0000000000000000        0x4 lib-Mini51/hal/drv_hal.o
+ .text.eeprom_write_block
+                0x0000000000000000       0xc4 lib-Mini51/hal/drv_hal.o
+ .text.eeprom_commit
+                0x0000000000000000        0x2 lib-Mini51/hal/drv_hal.o
+ .text.eeprom_read_block
+                0x0000000000000000       0x8c lib-Mini51/hal/drv_hal.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/drv_pwm.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/drv_pwm.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/hal/drv_pwm.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/drv_serial.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/drv_serial.o
+ .text.serialUART1
+                0x0000000000000000       0x44 lib-Mini51/hal/drv_serial.o
+ .text.serialOpen
+                0x0000000000000000       0x5c lib-Mini51/hal/drv_serial.o
+ .text.uartAvailable
+                0x0000000000000000       0x14 lib-Mini51/hal/drv_serial.o
+ .text.uartRead
+                0x0000000000000000       0x1c lib-Mini51/hal/drv_serial.o
+ .text.uartInit
+                0x0000000000000000       0x3c lib-Mini51/hal/drv_serial.o
+ .text.UART_IRQHandler
+                0x0000000000000000       0x7c lib-Mini51/hal/drv_serial.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/lib_adc.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/lib_adc.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/hal/lib_adc.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/lib_digitalio.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/lib_digitalio.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/hal/lib_digitalio.o
+ .text.lib_digitalio_setinterruptcallback
+                0x0000000000000000        0x2 lib-Mini51/hal/lib_digitalio.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/lib_fp.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/lib_fp.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/hal/lib_fp.o
+ .text.lib_fp_stringtolong
+                0x0000000000000000       0x34 lib-Mini51/hal/lib_fp.o
+ .text.lib_fp_stringtofixedpointnum
+                0x0000000000000000       0x6c lib-Mini51/hal/lib_fp.o
+ .text.lib_fp_sqrt
+                0x0000000000000000       0x12 lib-Mini51/hal/lib_fp.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/lib_i2c.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/lib_i2c.o
+ .text.lib_i2c_readreg
+                0x0000000000000000       0x2a lib-Mini51/hal/lib_i2c.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/lib_serial.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/lib_serial.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/hal/lib_serial.o
+ .text.lib_serial_availableoutputbuffersize
+                0x0000000000000000        0x6 lib-Mini51/hal/lib_serial.o
+ .text.lib_serial_initport
+                0x0000000000000000       0x18 lib-Mini51/hal/lib_serial.o
+ .text.lib_serial_senddata
+                0x0000000000000000       0x20 lib-Mini51/hal/lib_serial.o
+ .text.lib_serial_numcharsavailable
+                0x0000000000000000       0x20 lib-Mini51/hal/lib_serial.o
+ .text.lib_serial_getchar
+                0x0000000000000000       0x20 lib-Mini51/hal/lib_serial.o
+ .text.lib_serial_getdata
+                0x0000000000000000       0x22 lib-Mini51/hal/lib_serial.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .text          0x0000000000000000        0x0 lib-Mini51/hal/lib_timers.o
+ .data          0x0000000000000000        0x0 lib-Mini51/hal/lib_timers.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/adc.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/adc.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/adc.o
+ .text.ADC_Open
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/adc.o
+ .text.ADC_Close
+                0x0000000000000000       0x1c lib-Mini51/StdDriver/src/adc.o
+ .text.ADC_EnableHWTrigger
+                0x0000000000000000       0x40 lib-Mini51/StdDriver/src/adc.o
+ .text.ADC_DisableHWTrigger
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/adc.o
+ .text.ADC_SetExtraSampleTime
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/adc.o
+ .text.ADC_EnableInt
+                0x0000000000000000       0x30 lib-Mini51/StdDriver/src/adc.o
+ .text.ADC_DisableInt
+                0x0000000000000000       0x30 lib-Mini51/StdDriver/src/adc.o
+ .debug_info    0x0000000000000000      0x3f8 lib-Mini51/StdDriver/src/adc.o
+ .debug_abbrev  0x0000000000000000      0x113 lib-Mini51/StdDriver/src/adc.o
+ .debug_loc     0x0000000000000000      0x200 lib-Mini51/StdDriver/src/adc.o
+ .debug_aranges
+                0x0000000000000000       0x50 lib-Mini51/StdDriver/src/adc.o
+ .debug_ranges  0x0000000000000000       0x40 lib-Mini51/StdDriver/src/adc.o
+ .debug_line    0x0000000000000000      0x1d1 lib-Mini51/StdDriver/src/adc.o
+ .debug_str     0x0000000000000000      0x32c lib-Mini51/StdDriver/src/adc.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/adc.o
+ .debug_frame   0x0000000000000000       0x8c lib-Mini51/StdDriver/src/adc.o
+ .ARM.attributes
+                0x0000000000000000       0x31 lib-Mini51/StdDriver/src/adc.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/clk.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/clk.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_DisableCKO
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_EnableCKO
+                0x0000000000000000       0x24 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_PowerDown
+                0x0000000000000000       0x1c lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_Idle
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_GetHXTFreq
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_GetLXTFreq
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_GetHCLKFreq
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_GetCPUFreq
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_SetHCLK
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_SetSysTickClockSrc
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_EnableXtalRC
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_DisableXtalRC
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_DisableModuleClock
+                0x0000000000000000       0x1c lib-Mini51/StdDriver/src/clk.o
+ .text.CLK_SysTickDelay
+                0x0000000000000000       0x24 lib-Mini51/StdDriver/src/clk.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/fmc.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/fmc.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_SetBootSource
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_DisableAPUpdate
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_DisableLDUpdate
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_EnableAPUpdate
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_EnableLDUpdate
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_GetBootSource
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_ReadCID
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_ReadDID
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_ReadPID
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_ReadUCID
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_ReadUID
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_ReadDataFlashBaseAddr
+                0x0000000000000000        0xc lib-Mini51/StdDriver/src/fmc.o
+ .text.FMC_SetVectorPageAddr
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/fmc.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/gpio.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/gpio.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/gpio.o
+ .text.GPIO_EnableInt
+                0x0000000000000000       0x1a lib-Mini51/StdDriver/src/gpio.o
+ .text.GPIO_DisableInt
+                0x0000000000000000       0x1c lib-Mini51/StdDriver/src/gpio.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/i2c.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/i2c.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_Open
+                0x0000000000000000       0x48 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_Close
+                0x0000000000000000       0x24 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_ClearTimeoutFlag
+                0x0000000000000000        0xa lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_Trigger
+                0x0000000000000000       0x30 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_DisableInt
+                0x0000000000000000        0xa lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_EnableInt
+                0x0000000000000000        0xa lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_GetClockBusFreq
+                0x0000000000000000       0x1c lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_SetClockBusFreq
+                0x0000000000000000       0x30 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_GetIntFlag
+                0x0000000000000000        0x8 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_GetStatus
+                0x0000000000000000        0x4 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_GetData
+                0x0000000000000000        0x4 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_SetData
+                0x0000000000000000        0x4 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_SetSlaveAddr
+                0x0000000000000000       0x28 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_SetSlaveMask
+                0x0000000000000000       0x22 lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_EnableTimeout
+                0x0000000000000000       0x1a lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_DisableTimeout
+                0x0000000000000000        0xa lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_EnableWakeup
+                0x0000000000000000        0xa lib-Mini51/StdDriver/src/i2c.o
+ .text.I2C_DisableWakeup
+                0x0000000000000000        0xa lib-Mini51/StdDriver/src/i2c.o
+ .debug_info    0x0000000000000000      0x728 lib-Mini51/StdDriver/src/i2c.o
+ .debug_abbrev  0x0000000000000000      0x18b lib-Mini51/StdDriver/src/i2c.o
+ .debug_loc     0x0000000000000000      0x2d9 lib-Mini51/StdDriver/src/i2c.o
+ .debug_aranges
+                0x0000000000000000       0xa8 lib-Mini51/StdDriver/src/i2c.o
+ .debug_ranges  0x0000000000000000       0x98 lib-Mini51/StdDriver/src/i2c.o
+ .debug_line    0x0000000000000000      0x2ed lib-Mini51/StdDriver/src/i2c.o
+ .debug_str     0x0000000000000000      0x4c0 lib-Mini51/StdDriver/src/i2c.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/i2c.o
+ .debug_frame   0x0000000000000000      0x16c lib-Mini51/StdDriver/src/i2c.o
+ .ARM.attributes
+                0x0000000000000000       0x31 lib-Mini51/StdDriver/src/i2c.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/pwm.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/pwm.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_ConfigOutputChannel
+                0x0000000000000000       0xf0 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_Stop
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_ForceStop
+                0x0000000000000000       0x2c lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_EnableADCTrigger
+                0x0000000000000000       0x3c lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_DisableADCTrigger
+                0x0000000000000000       0x30 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_ClearADCTriggerFlag
+                0x0000000000000000       0x30 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_GetADCTriggerFlag
+                0x0000000000000000       0x24 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_EnableFaultBreak
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_ClearFaultBreakFlag
+                0x0000000000000000        0xc lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_DisableOutput
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_EnableDeadZone
+                0x0000000000000000       0x2c lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_DisableDeadZone
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_EnableDutyInt
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_DisableDutyInt
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_ClearDutyIntFlag
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_GetDutyIntFlag
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_EnableFaultBreakInt
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_DisableFaultBreakInt
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_ClearFaultBreakIntFlag
+                0x0000000000000000        0xc lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_GetFaultBreakIntFlag
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_EnablePeriodInt
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_DisablePeriodInt
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_ClearPeriodIntFlag
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/pwm.o
+ .text.PWM_GetPeriodIntFlag
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/pwm.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/sys.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/sys.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_ClearResetSrc
+                0x0000000000000000        0xc lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_GetBODStatus
+                0x0000000000000000        0xc lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_GetResetSrc
+                0x0000000000000000        0x8 lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_IsRegLocked
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_ReadPDID
+                0x0000000000000000        0x8 lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_ResetChip
+                0x0000000000000000        0xe lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_ResetCPU
+                0x0000000000000000        0xe lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_ResetModule
+                0x0000000000000000       0x28 lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_EnableBOD
+                0x0000000000000000       0x24 lib-Mini51/StdDriver/src/sys.o
+ .text.SYS_DisableBOD
+                0x0000000000000000       0x16 lib-Mini51/StdDriver/src/sys.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/timer.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/timer.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/timer.o
+ .text.TIMER_Close
+                0x0000000000000000        0x8 lib-Mini51/StdDriver/src/timer.o
+ .text.TIMER_EnableCapture
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/timer.o
+ .text.TIMER_DisableCapture
+                0x0000000000000000        0xa lib-Mini51/StdDriver/src/timer.o
+ .text.TIMER_EnableEventCounter
+                0x0000000000000000       0x16 lib-Mini51/StdDriver/src/timer.o
+ .text.TIMER_DisableEventCounter
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/timer.o
+ .text.TIMER_GetModuleClock
+                0x0000000000000000       0x58 lib-Mini51/StdDriver/src/timer.o
+ .text.TIMER_Open
+                0x0000000000000000       0x48 lib-Mini51/StdDriver/src/timer.o
+ .text.TIMER_Delay
+                0x0000000000000000       0x9c lib-Mini51/StdDriver/src/timer.o
+ .debug_info    0x0000000000000000      0x411 lib-Mini51/StdDriver/src/timer.o
+ .debug_abbrev  0x0000000000000000      0x1aa lib-Mini51/StdDriver/src/timer.o
+ .debug_loc     0x0000000000000000      0x37d lib-Mini51/StdDriver/src/timer.o
+ .debug_aranges
+                0x0000000000000000       0x58 lib-Mini51/StdDriver/src/timer.o
+ .debug_ranges  0x0000000000000000       0x60 lib-Mini51/StdDriver/src/timer.o
+ .debug_line    0x0000000000000000      0x27a lib-Mini51/StdDriver/src/timer.o
+ .debug_str     0x0000000000000000      0x321 lib-Mini51/StdDriver/src/timer.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/timer.o
+ .debug_frame   0x0000000000000000       0xc0 lib-Mini51/StdDriver/src/timer.o
+ .ARM.attributes
+                0x0000000000000000       0x31 lib-Mini51/StdDriver/src/timer.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/wdt.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/wdt.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/wdt.o
+ .text.WDT_Open
+                0x0000000000000000       0x18 lib-Mini51/StdDriver/src/wdt.o
+ .text.WDT_Close
+                0x0000000000000000        0xc lib-Mini51/StdDriver/src/wdt.o
+ .text.WDT_EnableInt
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/wdt.o
+ .text.WDT_DisableInt
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/wdt.o
+ .debug_info    0x0000000000000000      0x134 lib-Mini51/StdDriver/src/wdt.o
+ .debug_abbrev  0x0000000000000000       0xb7 lib-Mini51/StdDriver/src/wdt.o
+ .debug_loc     0x0000000000000000       0x63 lib-Mini51/StdDriver/src/wdt.o
+ .debug_aranges
+                0x0000000000000000       0x38 lib-Mini51/StdDriver/src/wdt.o
+ .debug_ranges  0x0000000000000000       0x28 lib-Mini51/StdDriver/src/wdt.o
+ .debug_line    0x0000000000000000      0x189 lib-Mini51/StdDriver/src/wdt.o
+ .debug_str     0x0000000000000000      0x20b lib-Mini51/StdDriver/src/wdt.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/wdt.o
+ .debug_frame   0x0000000000000000       0x50 lib-Mini51/StdDriver/src/wdt.o
+ .ARM.attributes
+                0x0000000000000000       0x31 lib-Mini51/StdDriver/src/wdt.o
+ .text          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/uart.o
+ .data          0x0000000000000000        0x0 lib-Mini51/StdDriver/src/uart.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_ClearIntFlag
+                0x0000000000000000       0x40 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_Close
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_DisableFlowCtrl
+                0x0000000000000000       0x10 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_DisableInt
+                0x0000000000000000       0x20 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_EnableFlowCtrl
+                0x0000000000000000       0x28 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_Open
+                0x0000000000000000       0x68 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_ReadBytes
+                0x0000000000000000       0x28 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_SetLine_Config
+                0x0000000000000000       0x70 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_SetTimeoutCnt
+                0x0000000000000000       0x16 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_SelectIrDAMode
+                0x0000000000000000       0x2a lib-Mini51/StdDriver/src/uart.o
+ .text.UART_SelectRS485Mode
+                0x0000000000000000       0x14 lib-Mini51/StdDriver/src/uart.o
+ .text.UART_WriteBytes
+                0x0000000000000000       0x28 lib-Mini51/StdDriver/src/uart.o
+ .rodata        0x0000000000000000       0x10 lib-Mini51/StdDriver/src/uart.o
+ .text          0x0000000000000000        0x0 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .text          0x0000000000000000        0x0 lib-Mini51/startup_Mini51Series.o
+ .data          0x0000000000000000        0x0 lib-Mini51/startup_Mini51Series.o
+ .bss           0x0000000000000000        0x0 lib-Mini51/startup_Mini51Series.o
+ .text          0x0000000000000000       0x14 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000       0x30 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunssfsi.o)
+ .text          0x0000000000000000      0x270 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .rodata        0x0000000000000000       0x80 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .debug_frame   0x0000000000000000       0x3c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .text          0x0000000000000000      0x264 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .rodata        0x0000000000000000       0x40 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .debug_frame   0x0000000000000000       0x3c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .text          0x0000000000000000      0x2fc /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subsf3.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subsf3.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subsf3.o)
+ .text          0x0000000000000000       0x40 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixsfsi.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixsfsi.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixsfsi.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixsfsi.o)
+ .text          0x0000000000000000       0x90 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .text          0x0000000000000000       0x74 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .text          0x0000000000000000       0x3c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000       0x54 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .text          0x0000000000000000       0x94 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .text          0x0000000000000000       0x8c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+ .data          0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+ .bss           0x0000000000000000        0x0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000000000 0x0000000000008000 xr
+ram              0x0000000020000000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD src/a7105.o
+LOAD src/accelerometer.o
+LOAD src/autotune.o
+LOAD src/bradwii.o
+LOAD src/checkboxes.o
+LOAD src/eeprom.o
+LOAD src/gyro.o
+LOAD src/imu.o
+LOAD src/leds.o
+LOAD src/output.o
+LOAD src/pilotcontrol.o
+LOAD src/serial.o
+LOAD src/rx_x4.o
+LOAD src/vectors.o
+LOAD lib-Mini51/hal/drv_gpio.o
+LOAD lib-Mini51/hal/drv_hal.o
+LOAD lib-Mini51/hal/drv_pwm.o
+LOAD lib-Mini51/hal/drv_serial.o
+LOAD lib-Mini51/hal/lib_adc.o
+LOAD lib-Mini51/hal/lib_digitalio.o
+LOAD lib-Mini51/hal/lib_fp.o
+LOAD lib-Mini51/hal/lib_i2c.o
+LOAD lib-Mini51/hal/lib_serial.o
+LOAD lib-Mini51/hal/lib_soft_3_wire_spi.o
+LOAD lib-Mini51/hal/lib_timers.o
+LOAD lib-Mini51/StdDriver/src/adc.o
+LOAD lib-Mini51/StdDriver/src/clk.o
+LOAD lib-Mini51/StdDriver/src/fmc.o
+LOAD lib-Mini51/StdDriver/src/gpio.o
+LOAD lib-Mini51/StdDriver/src/i2c.o
+LOAD lib-Mini51/StdDriver/src/pwm.o
+LOAD lib-Mini51/StdDriver/src/sys.o
+LOAD lib-Mini51/StdDriver/src/timer.o
+LOAD lib-Mini51/StdDriver/src/wdt.o
+LOAD lib-Mini51/StdDriver/src/uart.o
+LOAD lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+LOAD lib-Mini51/startup_Mini51Series.o
+START GROUP
+LOAD /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libg.a
+LOAD /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a
+END GROUP
+                0x0000000020002000                _eram = 0x20002000
+
+.text           0x0000000000000000     0x2898
+ *(.isr_vector .isr_vector.*)
+ .isr_vector    0x0000000000000000       0xc0 lib-Mini51/startup_Mini51Series.o
+                0x0000000000000000                g_pfnVectors
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.A7105_WriteID
+                0x00000000000000c0       0x34 src/a7105.o
+                0x00000000000000c0                A7105_WriteID
+ .text.A7105_WritePayload
+                0x00000000000000f4       0x30 src/a7105.o
+                0x00000000000000f4                A7105_WritePayload
+ .text.A7105_ReadPayload
+                0x0000000000000124       0x2a src/a7105.o
+                0x0000000000000124                A7105_ReadPayload
+ .text.A7105_ReadRegister
+                0x000000000000014e       0x22 src/a7105.o
+                0x000000000000014e                A7105_ReadRegister
+ .text.A7105_WriteRegister
+                0x0000000000000170       0x20 src/a7105.o
+                0x0000000000000170                A7105_WriteRegister
+ .text.A7105_Reset
+                0x0000000000000190        0xc src/a7105.o
+                0x0000000000000190                A7105_Reset
+ .text.A7105_Strobe
+                0x000000000000019c       0x18 src/a7105.o
+                0x000000000000019c                A7105_Strobe
+ .text.initacc  0x00000000000001b4       0x32 src/accelerometer.o
+                0x00000000000001b4                initacc
+ *fill*         0x00000000000001e6        0x2 
+ .text.readacc  0x00000000000001e8       0x50 src/accelerometer.o
+                0x00000000000001e8                readacc
+ .text.autotune
+                0x0000000000000238      0x254 src/autotune.o
+                0x0000000000000238                autotune
+ .text.calculatetimesliver
+                0x000000000000048c       0x2c src/bradwii.o
+                0x000000000000048c                calculatetimesliver
+ .text.defaultusersettings
+                0x00000000000004b8       0xc4 src/bradwii.o
+                0x00000000000004b8                defaultusersettings
+ .text.startup.main
+                0x000000000000057c      0x598 src/bradwii.o
+                0x000000000000057c                main
+ .text.checkcheckboxitems
+                0x0000000000000b14      0x120 src/checkboxes.o
+                0x0000000000000b14                checkcheckboxitems
+ .text.writeusersettingstoeeprom
+                0x0000000000000c34        0x2 src/eeprom.o
+                0x0000000000000c34                writeusersettingstoeeprom
+ .text.readusersettingsfromeeprom
+                0x0000000000000c36        0x2 src/eeprom.o
+                0x0000000000000c36                readusersettingsfromeeprom
+ .text.initgyro
+                0x0000000000000c38       0x28 src/gyro.o
+                0x0000000000000c38                initgyro
+ .text.readgyro
+                0x0000000000000c60       0x54 src/gyro.o
+                0x0000000000000c60                readgyro
+ .text.calibrategyroandaccelerometer
+                0x0000000000000cb4       0xc8 src/imu.o
+                0x0000000000000cb4                calibrategyroandaccelerometer
+ .text.initimu  0x0000000000000d7c       0x38 src/imu.o
+                0x0000000000000d7c                initimu
+ .text.imucalculateestimatedattitude
+                0x0000000000000db4      0x188 src/imu.o
+                0x0000000000000db4                imucalculateestimatedattitude
+ .text.leds_init
+                0x0000000000000f3c       0x34 src/leds.o
+                0x0000000000000f3c                leds_init
+ .text.leds_set
+                0x0000000000000f70       0x44 src/leds.o
+                0x0000000000000f70                leds_set
+ .text.leds_blink_cycles
+                0x0000000000000fb4       0x32 src/leds.o
+                0x0000000000000fb4                leds_blink_cycles
+ .text.leds_blink_continuous
+                0x0000000000000fe6       0x2c src/leds.o
+                0x0000000000000fe6                leds_blink_continuous
+ *fill*         0x0000000000001012        0x2 
+ .text.setmotoroutput
+                0x0000000000001014       0x40 src/output.o
+                0x0000000000001014                setmotoroutput
+ .text.setallmotoroutputs
+                0x0000000000001054       0x24 src/output.o
+                0x0000000000001054                setallmotoroutputs
+ .text.initoutputs
+                0x0000000000001078        0xc src/output.o
+                0x0000000000001078                initoutputs
+ .text.resetpilotcontrol
+                0x0000000000001084       0x38 src/pilotcontrol.o
+                0x0000000000001084                resetpilotcontrol
+ .text.getangleerrorfrompilotinput
+                0x00000000000010bc      0x230 src/pilotcontrol.o
+                0x00000000000010bc                getangleerrorfrompilotinput
+ .text.update_crc
+                0x00000000000012ec       0x1c src/rx_x4.o
+                0x00000000000012ec                update_crc
+ .text.hubsan_check_integrity
+                0x0000000000001308       0x24 src/rx_x4.o
+                0x0000000000001308                hubsan_check_integrity
+ .text.hubsan_build_bind_packet
+                0x000000000000132c       0x30 src/rx_x4.o
+                0x000000000000132c                hubsan_build_bind_packet
+ .text.init_a7105
+                0x000000000000135c       0xa0 src/rx_x4.o
+                0x000000000000135c                init_a7105
+ .text.waitTRXCompletion
+                0x00000000000013fc        0xe src/rx_x4.o
+                0x00000000000013fc                waitTRXCompletion
+ *fill*         0x000000000000140a        0x2 
+ .text.strobeTXRX
+                0x000000000000140c       0x2c src/rx_x4.o
+                0x000000000000140c                strobeTXRX
+ .text.bind     0x0000000000001438      0x194 src/rx_x4.o
+                0x0000000000001438                bind
+ .text.initrx   0x00000000000015cc       0x22 src/rx_x4.o
+                0x00000000000015cc                initrx
+ *fill*         0x00000000000015ee        0x2 
+ .text.decodepacket
+                0x00000000000015f0       0xc8 src/rx_x4.o
+                0x00000000000015f0                decodepacket
+ .text.readrx   0x00000000000016b8       0x88 src/rx_x4.o
+                0x00000000000016b8                readrx
+ .text.vectorcrossproduct
+                0x0000000000001740       0x4c src/vectors.o
+                0x0000000000001740                vectorcrossproduct
+ .text.normalizevector
+                0x000000000000178c       0x5e src/vectors.o
+                0x000000000000178c                normalizevector
+ .text.rotatevectorwithsmallangles
+                0x00000000000017ea       0x6e src/vectors.o
+                0x00000000000017ea                rotatevectorwithsmallangles
+ .text.lib_hal_init
+                0x0000000000001858       0x8c lib-Mini51/hal/drv_hal.o
+                0x0000000000001858                lib_hal_init
+ .text.HardFault_Handler
+                0x00000000000018e4       0x28 lib-Mini51/hal/drv_hal.o
+                0x00000000000018e4                HardFault_Handler
+ .text.pwmInit  0x000000000000190c       0xf8 lib-Mini51/hal/drv_pwm.o
+                0x000000000000190c                pwmInit
+ .text.pwmWriteMotor
+                0x0000000000001a04       0x24 lib-Mini51/hal/drv_pwm.o
+                0x0000000000001a04                pwmWriteMotor
+ .text.uartWrite
+                0x0000000000001a28       0x2a lib-Mini51/hal/drv_serial.o
+                0x0000000000001a28                uartWrite
+ *fill*         0x0000000000001a52        0x2 
+ .text.lib_adc_init
+                0x0000000000001a54       0x2c lib-Mini51/hal/lib_adc.o
+                0x0000000000001a54                lib_adc_init
+ .text.lib_adc_select_channel
+                0x0000000000001a80       0x40 lib-Mini51/hal/lib_adc.o
+                0x0000000000001a80                lib_adc_select_channel
+ .text.lib_adc_is_busy
+                0x0000000000001ac0       0x10 lib-Mini51/hal/lib_adc.o
+                0x0000000000001ac0                lib_adc_is_busy
+ .text.lib_adc_startconv
+                0x0000000000001ad0       0x14 lib-Mini51/hal/lib_adc.o
+                0x0000000000001ad0                lib_adc_startconv
+ .text.lib_adc_read_volt
+                0x0000000000001ae4       0x18 lib-Mini51/hal/lib_adc.o
+                0x0000000000001ae4                lib_adc_read_volt
+ .text.lib_adc_read_raw
+                0x0000000000001afc       0x10 lib-Mini51/hal/lib_adc.o
+                0x0000000000001afc                lib_adc_read_raw
+ .text.lib_digitalio_initpin
+                0x0000000000001b0c       0x28 lib-Mini51/hal/lib_digitalio.o
+                0x0000000000001b0c                lib_digitalio_initpin
+ .text.lib_digitalio_getinput
+                0x0000000000001b34       0x1c lib-Mini51/hal/lib_digitalio.o
+                0x0000000000001b34                lib_digitalio_getinput
+ .text.lib_digitalio_setoutput
+                0x0000000000001b50       0x1c lib-Mini51/hal/lib_digitalio.o
+                0x0000000000001b50                lib_digitalio_setoutput
+ .text.lib_fp_constrain
+                0x0000000000001b6c       0x12 lib-Mini51/hal/lib_fp.o
+                0x0000000000001b6c                lib_fp_constrain
+ *fill*         0x0000000000001b7e        0x2 
+ .text.lib_fp_constrain180
+                0x0000000000001b80       0x30 lib-Mini51/hal/lib_fp.o
+                0x0000000000001b80                lib_fp_constrain180
+ .text.lib_fp_multiply
+                0x0000000000001bb0       0x22 lib-Mini51/hal/lib_fp.o
+                0x0000000000001bb0                lib_fp_multiply
+ .text.lib_fp_lowpassfilter
+                0x0000000000001bd2       0x3a lib-Mini51/hal/lib_fp.o
+                0x0000000000001bd2                lib_fp_lowpassfilter
+ .text.lib_fp_abs
+                0x0000000000001c0c        0x8 lib-Mini51/hal/lib_fp.o
+                0x0000000000001c0c                lib_fp_abs
+ .text.lib_fp_sine
+                0x0000000000001c14       0xa4 lib-Mini51/hal/lib_fp.o
+                0x0000000000001c14                lib_fp_sine
+ .text.lib_fp_cosine
+                0x0000000000001cb8        0xe lib-Mini51/hal/lib_fp.o
+                0x0000000000001cb8                lib_fp_cosine
+ *fill*         0x0000000000001cc6        0x2 
+ .text.lib_fp_atan2
+                0x0000000000001cc8       0x88 lib-Mini51/hal/lib_fp.o
+                0x0000000000001cc8                lib_fp_atan2
+ .text.lib_fp_invsqrt
+                0x0000000000001d50       0x68 lib-Mini51/hal/lib_fp.o
+                0x0000000000001d50                lib_fp_invsqrt
+ .text.I2C_WAIT_READY_ERROR.constprop.5
+                0x0000000000001db8       0x28 lib-Mini51/hal/lib_i2c.o
+ .text.lib_i2c_init
+                0x0000000000001de0       0x50 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001de0                lib_i2c_init
+ .text.lib_i2c_setclockspeed
+                0x0000000000001e30        0x2 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001e30                lib_i2c_setclockspeed
+ *fill*         0x0000000000001e32        0x2 
+ .text.lib_i2c_write
+                0x0000000000001e34       0x40 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001e34                lib_i2c_write
+ .text.lib_i2c_start
+                0x0000000000001e74       0x30 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001e74                lib_i2c_start
+ .text.lib_i2c_rep_start
+                0x0000000000001ea4       0x38 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001ea4                lib_i2c_rep_start
+ .text.lib_i2c_stop
+                0x0000000000001edc       0x14 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001edc                lib_i2c_stop
+ .text.lib_i2c_writereg
+                0x0000000000001ef0       0x20 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001ef0                lib_i2c_writereg
+ .text.lib_i2c_readack
+                0x0000000000001f10       0x20 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001f10                lib_i2c_readack
+ .text.lib_i2c_readnak
+                0x0000000000001f30       0x20 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001f30                lib_i2c_readnak
+ .text.lib_i2c_readdata
+                0x0000000000001f50       0x48 lib-Mini51/hal/lib_i2c.o
+                0x0000000000001f50                lib_i2c_readdata
+ .text.lib_serial_sendchar
+                0x0000000000001f98       0x30 lib-Mini51/hal/lib_serial.o
+                0x0000000000001f98                lib_serial_sendchar
+ .text.lib_serial_sendstring
+                0x0000000000001fc8       0x26 lib-Mini51/hal/lib_serial.o
+                0x0000000000001fc8                lib_serial_sendstring
+ *fill*         0x0000000000001fee        0x2 
+ .text.lib_soft_3_wire_spi_setCS
+                0x0000000000001ff0       0x14 lib-Mini51/hal/lib_soft_3_wire_spi.o
+                0x0000000000001ff0                lib_soft_3_wire_spi_setCS
+ .text.lib_soft_3_wire_spi_setSCK
+                0x0000000000002004       0x14 lib-Mini51/hal/lib_soft_3_wire_spi.o
+                0x0000000000002004                lib_soft_3_wire_spi_setSCK
+ .text.lib_soft_3_wire_spi_setSDIO
+                0x0000000000002018       0x14 lib-Mini51/hal/lib_soft_3_wire_spi.o
+                0x0000000000002018                lib_soft_3_wire_spi_setSDIO
+ .text.lib_soft_3_wire_spi_init
+                0x000000000000202c       0x38 lib-Mini51/hal/lib_soft_3_wire_spi.o
+                0x000000000000202c                lib_soft_3_wire_spi_init
+ .text.lib_soft_3_wire_spi_write
+                0x0000000000002064       0x42 lib-Mini51/hal/lib_soft_3_wire_spi.o
+                0x0000000000002064                lib_soft_3_wire_spi_write
+ *fill*         0x00000000000020a6        0x2 
+ .text.lib_soft_3_wire_spi_read
+                0x00000000000020a8       0x48 lib-Mini51/hal/lib_soft_3_wire_spi.o
+                0x00000000000020a8                lib_soft_3_wire_spi_read
+ .text.SysTick_Handler
+                0x00000000000020f0       0x10 lib-Mini51/hal/lib_timers.o
+                0x00000000000020f0                SysTick_Handler
+ .text.lib_timers_init
+                0x0000000000002100       0x44 lib-Mini51/hal/lib_timers.o
+                0x0000000000002100                lib_timers_init
+ .text.lib_timers_getcurrentmicroseconds
+                0x0000000000002144       0x34 lib-Mini51/hal/lib_timers.o
+                0x0000000000002144                lib_timers_getcurrentmicroseconds
+ .text.lib_timers_gettimermicroseconds
+                0x0000000000002178       0x16 lib-Mini51/hal/lib_timers.o
+                0x0000000000002178                lib_timers_gettimermicroseconds
+ .text.lib_timers_gettimermicrosecondsandreset
+                0x000000000000218e       0x1a lib-Mini51/hal/lib_timers.o
+                0x000000000000218e                lib_timers_gettimermicrosecondsandreset
+ .text.lib_timers_starttimer
+                0x00000000000021a8        0x8 lib-Mini51/hal/lib_timers.o
+                0x00000000000021a8                lib_timers_starttimer
+ .text.lib_timers_delaymilliseconds
+                0x00000000000021b0       0x1c lib-Mini51/hal/lib_timers.o
+                0x00000000000021b0                lib_timers_delaymilliseconds
+ .text.CLK_SetModuleClock
+                0x00000000000021cc       0x38 lib-Mini51/StdDriver/src/clk.o
+                0x00000000000021cc                CLK_SetModuleClock
+ .text.CLK_EnableModuleClock
+                0x0000000000002204       0x24 lib-Mini51/StdDriver/src/clk.o
+                0x0000000000002204                CLK_EnableModuleClock
+ .text.CLK_WaitClockReady
+                0x0000000000002228       0x1c lib-Mini51/StdDriver/src/clk.o
+                0x0000000000002228                CLK_WaitClockReady
+ .text.FMC_Close
+                0x0000000000002244       0x10 lib-Mini51/StdDriver/src/fmc.o
+                0x0000000000002244                FMC_Close
+ .text.FMC_DisableConfigUpdate
+                0x0000000000002254       0x10 lib-Mini51/StdDriver/src/fmc.o
+                0x0000000000002254                FMC_DisableConfigUpdate
+ .text.FMC_EnableConfigUpdate
+                0x0000000000002264       0x10 lib-Mini51/StdDriver/src/fmc.o
+                0x0000000000002264                FMC_EnableConfigUpdate
+ .text.FMC_Erase
+                0x0000000000002274       0x2c lib-Mini51/StdDriver/src/fmc.o
+                0x0000000000002274                FMC_Erase
+ .text.FMC_Open
+                0x00000000000022a0       0x10 lib-Mini51/StdDriver/src/fmc.o
+                0x00000000000022a0                FMC_Open
+ .text.FMC_Read
+                0x00000000000022b0       0x1c lib-Mini51/StdDriver/src/fmc.o
+                0x00000000000022b0                FMC_Read
+ .text.FMC_Write
+                0x00000000000022cc       0x2c lib-Mini51/StdDriver/src/fmc.o
+                0x00000000000022cc                FMC_Write
+ .text.FMC_ReadConfig
+                0x00000000000022f8       0x24 lib-Mini51/StdDriver/src/fmc.o
+                0x00000000000022f8                FMC_ReadConfig
+ .text.FMC_WriteConfig
+                0x000000000000231c       0x48 lib-Mini51/StdDriver/src/fmc.o
+                0x000000000000231c                FMC_WriteConfig
+ .text.GPIO_SetMode
+                0x0000000000002364       0x28 lib-Mini51/StdDriver/src/gpio.o
+                0x0000000000002364                GPIO_SetMode
+ .text.PWM_Start
+                0x000000000000238c       0x2c lib-Mini51/StdDriver/src/pwm.o
+                0x000000000000238c                PWM_Start
+ .text.PWM_EnableOutput
+                0x00000000000023b8       0x10 lib-Mini51/StdDriver/src/pwm.o
+                0x00000000000023b8                PWM_EnableOutput
+ .text.SYS_LockReg
+                0x00000000000023c8        0xc lib-Mini51/StdDriver/src/sys.o
+                0x00000000000023c8                SYS_LockReg
+ .text.SYS_UnlockReg
+                0x00000000000023d4       0x1c lib-Mini51/StdDriver/src/sys.o
+                0x00000000000023d4                SYS_UnlockReg
+ .text.UART_EnableInt
+                0x00000000000023f0       0x20 lib-Mini51/StdDriver/src/uart.o
+                0x00000000000023f0                UART_EnableInt
+ .text.SystemCoreClockUpdate
+                0x0000000000002410       0x54 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+                0x0000000000002410                SystemCoreClockUpdate
+ .text.SystemInit
+                0x0000000000002464        0x2 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+                0x0000000000002464                SystemInit
+ .text.Default_Handler
+                0x0000000000002466        0x2 lib-Mini51/startup_Mini51Series.o
+                0x0000000000002466                GPIOP2P3P4_IRQHandler
+                0x0000000000002466                PendSV_Handler
+                0x0000000000002466                NMI_Handler
+                0x0000000000002466                UART1_IRQHandler
+                0x0000000000002466                PS2_IRQHandler
+                0x0000000000002466                UART0_IRQHandler
+                0x0000000000002466                USBD_IRQHandler
+                0x0000000000002466                SPI1_IRQHandler
+                0x0000000000002466                TMR0_IRQHandler
+                0x0000000000002466                I2S_IRQHandler
+                0x0000000000002466                PWRWU_IRQHandler
+                0x0000000000002466                EINT1_IRQHandler
+                0x0000000000002466                PWMA_IRQHandler
+                0x0000000000002466                ADC_IRQHandler
+                0x0000000000002466                TMR2_IRQHandler
+                0x0000000000002466                BOD_IRQHandler
+                0x0000000000002466                SPI2_IRQHandler
+                0x0000000000002466                I2C_IRQHandler
+                0x0000000000002466                WDT_IRQHandler
+                0x0000000000002466                SVC_Handler
+                0x0000000000002466                PDMA_IRQHandler
+                0x0000000000002466                EINT0_IRQHandler
+                0x0000000000002466                TMR3_IRQHandler
+                0x0000000000002466                SPI0_IRQHandler
+                0x0000000000002466                SPI3_IRQHandler
+                0x0000000000002466                PWMB_IRQHandler
+                0x0000000000002466                TMR1_IRQHandler
+                0x0000000000002466                GPIOP0P1_IRQHandler
+ .text.Default_Reset_Handler
+                0x0000000000002468       0x44 lib-Mini51/startup_Mini51Series.o
+                0x0000000000002468                Reset_Handler
+                0x0000000000002468                Default_Reset_Handler
+ .text          0x00000000000024ac      0x120 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+                0x00000000000024ac                __udivsi3
+                0x00000000000024ac                __aeabi_uidiv
+                0x00000000000025b8                __aeabi_uidivmod
+ .text          0x00000000000025cc      0x1e0 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+                0x00000000000025cc                __aeabi_idiv
+                0x00000000000025cc                __divsi3
+                0x0000000000002798                __aeabi_idivmod
+ .text          0x00000000000027ac        0x4 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x00000000000027ac                __aeabi_ldiv0
+                0x00000000000027ac                __aeabi_idiv0
+ *(.glue_7t)
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000027b0       0x13 src/bradwii.o
+ .rodata        0x00000000000027c3        0xc src/rx_x4.o
+ .rodata        0x00000000000027cf        0x4 lib-Mini51/hal/drv_pwm.o
+ *fill*         0x00000000000027d3        0x1 
+ .rodata        0x00000000000027d4       0xc4 lib-Mini51/hal/lib_fp.o
+
+.vfp11_veneer   0x0000000000002898        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000002898        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000002898        0x0
+ .iplt          0x0000000000000000        0x0 src/a7105.o
+
+.rel.dyn        0x0000000000002898        0x0
+ .rel.iplt      0x0000000000000000        0x0 src/a7105.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000002898                . = ALIGN (0x4)
+                0x0000000000002898                _etext = .
+                0x0000000000002898                _sidata = .
+
+.data           0x0000000020000000        0xc load address 0x0000000000002898
+                0x0000000020000000                _sdata = .
+ *(.data .data.*)
+ .data          0x0000000020000000        0x1 src/autotune.o
+                0x0000000020000000                cyclecount
+ *fill*         0x0000000020000001        0x3 
+ .data          0x0000000020000004        0x8 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+                0x0000000020000004                SystemCoreClock
+                0x0000000020000008                CyclesPerUs
+                0x000000002000000c                . = ALIGN (0x4)
+                0x000000002000000c                _edata = .
+
+.igot.plt       0x000000002000000c        0x0 load address 0x00000000000028a4
+ .igot.plt      0x0000000000000000        0x0 src/a7105.o
+
+.bss            0x000000002000000c      0x3a4 load address 0x00000000000028a4
+                0x000000002000000c                _sbss = .
+ *(.bss .bss.*)
+ .bss           0x000000002000000c       0x28 src/autotune.o
+                0x000000002000000c                targetangle
+                0x0000000020000010                autotuneindex
+                0x0000000020000014                currentivalueshifted
+                0x0000000020000018                currentdvalueshifted
+                0x000000002000001c                currentpvalueshifted
+                0x0000000020000020                autotunepeak2
+                0x0000000020000024                autotunepeak1
+                0x0000000020000028                rising
+                0x000000002000002c                targetangleatpeak
+                0x0000000020000030                autotunetime
+ .bss           0x0000000020000034      0x1e4 src/bradwii.o
+                0x0000000020000034                timeslivertimer
+                0x0000000020000038                global
+                0x0000000020000104                usersettings
+                0x00000000200001ec                integratedangleerror
+                0x00000000200001f8                altitudeholddesiredaltitude
+                0x00000000200001fc                integratedaltitudeerror
+ .bss           0x0000000020000218        0x8 src/checkboxes.o
+ .bss           0x0000000020000220        0xc src/imu.o
+                0x0000000020000220                lastbarorawaltitude
+                0x0000000020000224                compasstimeinterval
+                0x0000000020000228                barotimeinterval
+ .bss           0x000000002000022c       0x14 src/pilotcontrol.o
+ .bss           0x0000000020000240       0x1c src/rx_x4.o
+ .bss           0x000000002000025c        0x1 lib-Mini51/hal/drv_hal.o
+ *fill*         0x000000002000025d        0x3 
+ .bss           0x0000000020000260      0x140 lib-Mini51/hal/drv_serial.o
+                0x0000000020000260                serialPort1
+ .bss           0x00000000200003a0        0x5 lib-Mini51/hal/lib_i2c.o
+                0x00000000200003a0                lib_i2c_error_count
+ .bss           0x00000000200003a5        0x3 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .bss           0x00000000200003a8        0x8 lib-Mini51/hal/lib_timers.o
+ *(COMMON)
+                0x00000000200003b0                . = ALIGN (0x4)
+                0x00000000200003b0                _ebss = .
+
+.co_stack       0x00000000200003b0      0x400 load address 0x0000000000002c48
+                0x00000000200003b0                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+ .co_stack      0x00000000200003b0      0x400 lib-Mini51/startup_Mini51Series.o
+                0x00000000200003b0                pulStack
+                0x00000000200007b0                . = ALIGN (0x4)
+                0x00000000200007b0                _end = .
+OUTPUT(bradwii-x4-gcc elf32-littlearm)
+
+.debug_info     0x0000000000000000     0xa570
+ .debug_info    0x0000000000000000      0x49f src/a7105.o
+ .debug_info    0x000000000000049f      0x407 src/accelerometer.o
+ .debug_info    0x00000000000008a6      0x57c src/autotune.o
+ .debug_info    0x0000000000000e22      0xdb7 src/bradwii.o
+ .debug_info    0x0000000000001bd9      0x43e src/checkboxes.o
+ .debug_info    0x0000000000002017       0xb1 src/eeprom.o
+ .debug_info    0x00000000000020c8      0x3ea src/gyro.o
+ .debug_info    0x00000000000024b2      0x808 src/imu.o
+ .debug_info    0x0000000000002cba      0x381 src/leds.o
+ .debug_info    0x000000000000303b      0x448 src/output.o
+ .debug_info    0x0000000000003483      0x76b src/pilotcontrol.o
+ .debug_info    0x0000000000003bee      0xc94 src/rx_x4.o
+ .debug_info    0x0000000000004882      0x374 src/vectors.o
+ .debug_info    0x0000000000004bf6      0x788 lib-Mini51/hal/drv_hal.o
+ .debug_info    0x000000000000537e      0x590 lib-Mini51/hal/drv_pwm.o
+ .debug_info    0x000000000000590e      0x752 lib-Mini51/hal/drv_serial.o
+ .debug_info    0x0000000000006060      0x2f2 lib-Mini51/hal/lib_adc.o
+ .debug_info    0x0000000000006352      0x2c6 lib-Mini51/hal/lib_digitalio.o
+ .debug_info    0x0000000000006618      0x5ec lib-Mini51/hal/lib_fp.o
+ .debug_info    0x0000000000006c04      0x931 lib-Mini51/hal/lib_i2c.o
+ .debug_info    0x0000000000007535      0x62c lib-Mini51/hal/lib_serial.o
+ .debug_info    0x0000000000007b61      0x36d lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .debug_info    0x0000000000007ece      0x55d lib-Mini51/hal/lib_timers.o
+ .debug_info    0x000000000000842b      0x519 lib-Mini51/StdDriver/src/clk.o
+ .debug_info    0x0000000000008944      0x42f lib-Mini51/StdDriver/src/fmc.o
+ .debug_info    0x0000000000008d73      0x1d9 lib-Mini51/StdDriver/src/gpio.o
+ .debug_info    0x0000000000008f4c      0x878 lib-Mini51/StdDriver/src/pwm.o
+ .debug_info    0x00000000000097c4      0x31a lib-Mini51/StdDriver/src/sys.o
+ .debug_info    0x0000000000009ade      0x7d9 lib-Mini51/StdDriver/src/uart.o
+ .debug_info    0x000000000000a2b7      0x18d lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .debug_info    0x000000000000a444      0x12c lib-Mini51/startup_Mini51Series.o
+
+.debug_abbrev   0x0000000000000000     0x2ce9
+ .debug_abbrev  0x0000000000000000      0x10e src/a7105.o
+ .debug_abbrev  0x000000000000010e       0xf7 src/accelerometer.o
+ .debug_abbrev  0x0000000000000205      0x12f src/autotune.o
+ .debug_abbrev  0x0000000000000334      0x213 src/bradwii.o
+ .debug_abbrev  0x0000000000000547      0x100 src/checkboxes.o
+ .debug_abbrev  0x0000000000000647       0x42 src/eeprom.o
+ .debug_abbrev  0x0000000000000689       0xf7 src/gyro.o
+ .debug_abbrev  0x0000000000000780      0x18d src/imu.o
+ .debug_abbrev  0x000000000000090d       0xec src/leds.o
+ .debug_abbrev  0x00000000000009f9      0x145 src/output.o
+ .debug_abbrev  0x0000000000000b3e      0x140 src/pilotcontrol.o
+ .debug_abbrev  0x0000000000000c7e      0x1ce src/rx_x4.o
+ .debug_abbrev  0x0000000000000e4c      0x10c src/vectors.o
+ .debug_abbrev  0x0000000000000f58      0x25b lib-Mini51/hal/drv_hal.o
+ .debug_abbrev  0x00000000000011b3      0x19c lib-Mini51/hal/drv_pwm.o
+ .debug_abbrev  0x000000000000134f      0x241 lib-Mini51/hal/drv_serial.o
+ .debug_abbrev  0x0000000000001590      0x168 lib-Mini51/hal/lib_adc.o
+ .debug_abbrev  0x00000000000016f8      0x126 lib-Mini51/hal/lib_digitalio.o
+ .debug_abbrev  0x000000000000181e      0x197 lib-Mini51/hal/lib_fp.o
+ .debug_abbrev  0x00000000000019b5      0x285 lib-Mini51/hal/lib_i2c.o
+ .debug_abbrev  0x0000000000001c3a      0x250 lib-Mini51/hal/lib_serial.o
+ .debug_abbrev  0x0000000000001e8a      0x105 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .debug_abbrev  0x0000000000001f8f      0x27b lib-Mini51/hal/lib_timers.o
+ .debug_abbrev  0x000000000000220a      0x1c5 lib-Mini51/StdDriver/src/clk.o
+ .debug_abbrev  0x00000000000023cf      0x1a9 lib-Mini51/StdDriver/src/fmc.o
+ .debug_abbrev  0x0000000000002578       0xe5 lib-Mini51/StdDriver/src/gpio.o
+ .debug_abbrev  0x000000000000265d      0x1b1 lib-Mini51/StdDriver/src/pwm.o
+ .debug_abbrev  0x000000000000280e       0xf9 lib-Mini51/StdDriver/src/sys.o
+ .debug_abbrev  0x0000000000002907      0x239 lib-Mini51/StdDriver/src/uart.o
+ .debug_abbrev  0x0000000000002b40       0xb9 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .debug_abbrev  0x0000000000002bf9       0xf0 lib-Mini51/startup_Mini51Series.o
+
+.debug_loc      0x0000000000000000     0x38ea
+ .debug_loc     0x0000000000000000      0x26e src/a7105.o
+ .debug_loc     0x000000000000026e      0x18b src/autotune.o
+ .debug_loc     0x00000000000003f9      0x15e src/bradwii.o
+ .debug_loc     0x0000000000000557       0x80 src/checkboxes.o
+ .debug_loc     0x00000000000005d7      0x16b src/imu.o
+ .debug_loc     0x0000000000000742      0x16b src/leds.o
+ .debug_loc     0x00000000000008ad      0x1b0 src/output.o
+ .debug_loc     0x0000000000000a5d      0x1e3 src/pilotcontrol.o
+ .debug_loc     0x0000000000000c40      0x15f src/rx_x4.o
+ .debug_loc     0x0000000000000d9f      0x265 src/vectors.o
+ .debug_loc     0x0000000000001004      0x28a lib-Mini51/hal/drv_hal.o
+ .debug_loc     0x000000000000128e       0x86 lib-Mini51/hal/drv_pwm.o
+ .debug_loc     0x0000000000001314      0x28f lib-Mini51/hal/drv_serial.o
+ .debug_loc     0x00000000000015a3       0x71 lib-Mini51/hal/lib_adc.o
+ .debug_loc     0x0000000000001614      0x1ab lib-Mini51/hal/lib_digitalio.o
+ .debug_loc     0x00000000000017bf      0x6e7 lib-Mini51/hal/lib_fp.o
+ .debug_loc     0x0000000000001ea6      0x294 lib-Mini51/hal/lib_i2c.o
+ .debug_loc     0x000000000000213a      0x2e4 lib-Mini51/hal/lib_serial.o
+ .debug_loc     0x000000000000241e      0x187 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .debug_loc     0x00000000000025a5      0x116 lib-Mini51/hal/lib_timers.o
+ .debug_loc     0x00000000000026bb      0x2a0 lib-Mini51/StdDriver/src/clk.o
+ .debug_loc     0x000000000000295b      0x1b8 lib-Mini51/StdDriver/src/fmc.o
+ .debug_loc     0x0000000000002b13       0x40 lib-Mini51/StdDriver/src/gpio.o
+ .debug_loc     0x0000000000002b53      0x888 lib-Mini51/StdDriver/src/pwm.o
+ .debug_loc     0x00000000000033db       0x84 lib-Mini51/StdDriver/src/sys.o
+ .debug_loc     0x000000000000345f      0x42f lib-Mini51/StdDriver/src/uart.o
+ .debug_loc     0x000000000000388e       0x26 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .debug_loc     0x00000000000038b4       0x36 lib-Mini51/startup_Mini51Series.o
+
+.debug_aranges  0x0000000000000000      0x988
+ .debug_aranges
+                0x0000000000000000       0x58 src/a7105.o
+ .debug_aranges
+                0x0000000000000058       0x28 src/accelerometer.o
+ .debug_aranges
+                0x0000000000000080       0x20 src/autotune.o
+ .debug_aranges
+                0x00000000000000a0       0x30 src/bradwii.o
+ .debug_aranges
+                0x00000000000000d0       0x20 src/checkboxes.o
+ .debug_aranges
+                0x00000000000000f0       0x28 src/eeprom.o
+ .debug_aranges
+                0x0000000000000118       0x28 src/gyro.o
+ .debug_aranges
+                0x0000000000000140       0x30 src/imu.o
+ .debug_aranges
+                0x0000000000000170       0x38 src/leds.o
+ .debug_aranges
+                0x00000000000001a8       0x38 src/output.o
+ .debug_aranges
+                0x00000000000001e0       0x28 src/pilotcontrol.o
+ .debug_aranges
+                0x0000000000000208       0x68 src/rx_x4.o
+ .debug_aranges
+                0x0000000000000270       0x38 src/vectors.o
+ .debug_aranges
+                0x00000000000002a8       0x40 lib-Mini51/hal/drv_hal.o
+ .debug_aranges
+                0x00000000000002e8       0x28 lib-Mini51/hal/drv_pwm.o
+ .debug_aranges
+                0x0000000000000310       0x50 lib-Mini51/hal/drv_serial.o
+ .debug_aranges
+                0x0000000000000360       0x48 lib-Mini51/hal/lib_adc.o
+ .debug_aranges
+                0x00000000000003a8       0x38 lib-Mini51/hal/lib_digitalio.o
+ .debug_aranges
+                0x00000000000003e0       0x78 lib-Mini51/hal/lib_fp.o
+ .debug_aranges
+                0x0000000000000458       0x78 lib-Mini51/hal/lib_i2c.o
+ .debug_aranges
+                0x00000000000004d0       0x58 lib-Mini51/hal/lib_serial.o
+ .debug_aranges
+                0x0000000000000528       0x48 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .debug_aranges
+                0x0000000000000570       0x50 lib-Mini51/hal/lib_timers.o
+ .debug_aranges
+                0x00000000000005c0       0xa0 lib-Mini51/StdDriver/src/clk.o
+ .debug_aranges
+                0x0000000000000660       0xc8 lib-Mini51/StdDriver/src/fmc.o
+ .debug_aranges
+                0x0000000000000728       0x30 lib-Mini51/StdDriver/src/gpio.o
+ .debug_aranges
+                0x0000000000000758       0xe8 lib-Mini51/StdDriver/src/pwm.o
+ .debug_aranges
+                0x0000000000000840       0x78 lib-Mini51/StdDriver/src/sys.o
+ .debug_aranges
+                0x00000000000008b8       0x80 lib-Mini51/StdDriver/src/uart.o
+ .debug_aranges
+                0x0000000000000938       0x28 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .debug_aranges
+                0x0000000000000960       0x28 lib-Mini51/startup_Mini51Series.o
+
+.debug_ranges   0x0000000000000000      0x988
+ .debug_ranges  0x0000000000000000       0x48 src/a7105.o
+ .debug_ranges  0x0000000000000048       0x18 src/accelerometer.o
+ .debug_ranges  0x0000000000000060       0x10 src/autotune.o
+ .debug_ranges  0x0000000000000070       0x20 src/bradwii.o
+ .debug_ranges  0x0000000000000090       0x10 src/checkboxes.o
+ .debug_ranges  0x00000000000000a0       0x18 src/eeprom.o
+ .debug_ranges  0x00000000000000b8       0x18 src/gyro.o
+ .debug_ranges  0x00000000000000d0       0x20 src/imu.o
+ .debug_ranges  0x00000000000000f0       0x40 src/leds.o
+ .debug_ranges  0x0000000000000130       0x40 src/output.o
+ .debug_ranges  0x0000000000000170       0x18 src/pilotcontrol.o
+ .debug_ranges  0x0000000000000188       0xa0 src/rx_x4.o
+ .debug_ranges  0x0000000000000228       0x28 src/vectors.o
+ .debug_ranges  0x0000000000000250       0x60 lib-Mini51/hal/drv_hal.o
+ .debug_ranges  0x00000000000002b0       0x30 lib-Mini51/hal/drv_pwm.o
+ .debug_ranges  0x00000000000002e0       0x58 lib-Mini51/hal/drv_serial.o
+ .debug_ranges  0x0000000000000338       0x38 lib-Mini51/hal/lib_adc.o
+ .debug_ranges  0x0000000000000370       0x28 lib-Mini51/hal/lib_digitalio.o
+ .debug_ranges  0x0000000000000398       0x68 lib-Mini51/hal/lib_fp.o
+ .debug_ranges  0x0000000000000400      0x118 lib-Mini51/hal/lib_i2c.o
+ .debug_ranges  0x0000000000000518       0x48 lib-Mini51/hal/lib_serial.o
+ .debug_ranges  0x0000000000000560       0x38 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .debug_ranges  0x0000000000000598       0x90 lib-Mini51/hal/lib_timers.o
+ .debug_ranges  0x0000000000000628       0x90 lib-Mini51/StdDriver/src/clk.o
+ .debug_ranges  0x00000000000006b8       0xb8 lib-Mini51/StdDriver/src/fmc.o
+ .debug_ranges  0x0000000000000770       0x20 lib-Mini51/StdDriver/src/gpio.o
+ .debug_ranges  0x0000000000000790       0xd8 lib-Mini51/StdDriver/src/pwm.o
+ .debug_ranges  0x0000000000000868       0x68 lib-Mini51/StdDriver/src/sys.o
+ .debug_ranges  0x00000000000008d0       0x88 lib-Mini51/StdDriver/src/uart.o
+ .debug_ranges  0x0000000000000958       0x18 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .debug_ranges  0x0000000000000970       0x18 lib-Mini51/startup_Mini51Series.o
+
+.debug_line     0x0000000000000000     0x3fb6
+ .debug_line    0x0000000000000000      0x1d9 src/a7105.o
+ .debug_line    0x00000000000001d9      0x14e src/accelerometer.o
+ .debug_line    0x0000000000000327      0x1b3 src/autotune.o
+ .debug_line    0x00000000000004da      0x3dc src/bradwii.o
+ .debug_line    0x00000000000008b6      0x164 src/checkboxes.o
+ .debug_line    0x0000000000000a1a       0x51 src/eeprom.o
+ .debug_line    0x0000000000000a6b      0x146 src/gyro.o
+ .debug_line    0x0000000000000bb1      0x202 src/imu.o
+ .debug_line    0x0000000000000db3      0x18e src/leds.o
+ .debug_line    0x0000000000000f41      0x187 src/output.o
+ .debug_line    0x00000000000010c8      0x1ad src/pilotcontrol.o
+ .debug_line    0x0000000000001275      0x2e7 src/rx_x4.o
+ .debug_line    0x000000000000155c      0x16a src/vectors.o
+ .debug_line    0x00000000000016c6      0x2cb lib-Mini51/hal/drv_hal.o
+ .debug_line    0x0000000000001991      0x1db lib-Mini51/hal/drv_pwm.o
+ .debug_line    0x0000000000001b6c      0x253 lib-Mini51/hal/drv_serial.o
+ .debug_line    0x0000000000001dbf      0x1f8 lib-Mini51/hal/lib_adc.o
+ .debug_line    0x0000000000001fb7      0x1bb lib-Mini51/hal/lib_digitalio.o
+ .debug_line    0x0000000000002172      0x255 lib-Mini51/hal/lib_fp.o
+ .debug_line    0x00000000000023c7      0x338 lib-Mini51/hal/lib_i2c.o
+ .debug_line    0x00000000000026ff      0x207 lib-Mini51/hal/lib_serial.o
+ .debug_line    0x0000000000002906      0x1b0 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .debug_line    0x0000000000002ab6      0x254 lib-Mini51/hal/lib_timers.o
+ .debug_line    0x0000000000002d0a      0x304 lib-Mini51/StdDriver/src/clk.o
+ .debug_line    0x000000000000300e      0x34b lib-Mini51/StdDriver/src/fmc.o
+ .debug_line    0x0000000000003359      0x181 lib-Mini51/StdDriver/src/gpio.o
+ .debug_line    0x00000000000034da      0x3b3 lib-Mini51/StdDriver/src/pwm.o
+ .debug_line    0x000000000000388d      0x228 lib-Mini51/StdDriver/src/sys.o
+ .debug_line    0x0000000000003ab5      0x2f9 lib-Mini51/StdDriver/src/uart.o
+ .debug_line    0x0000000000003dae      0x18d lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .debug_line    0x0000000000003f3b       0x7b lib-Mini51/startup_Mini51Series.o
+
+.debug_str      0x0000000000000000     0x26cf
+ .debug_str     0x0000000000000000      0x23d src/a7105.o
+                                        0x2a3 (size before relaxing)
+ .debug_str     0x000000000000023d      0x253 src/accelerometer.o
+                                        0x45e (size before relaxing)
+ .debug_str     0x0000000000000490      0x1d1 src/autotune.o
+                                        0x5df (size before relaxing)
+ .debug_str     0x0000000000000661      0x57b src/bradwii.o
+                                        0xaa7 (size before relaxing)
+ .debug_str     0x0000000000000bdc       0x3e src/checkboxes.o
+                                        0x543 (size before relaxing)
+ .debug_str     0x0000000000000c1a        0xd src/eeprom.o
+                                        0x1bd (size before relaxing)
+ .debug_str     0x0000000000000c27       0x14 src/gyro.o
+                                        0x457 (size before relaxing)
+ .debug_str     0x0000000000000c3b      0x128 src/imu.o
+                                        0x6a0 (size before relaxing)
+ .debug_str     0x0000000000000d63       0x4a src/leds.o
+                                        0x25c (size before relaxing)
+ .debug_str     0x0000000000000dad       0x47 src/output.o
+                                        0x481 (size before relaxing)
+ .debug_str     0x0000000000000df4      0x13f src/pilotcontrol.o
+                                        0x678 (size before relaxing)
+ .debug_str     0x0000000000000f33       0xc7 src/rx_x4.o
+                                        0x5d2 (size before relaxing)
+ .debug_str     0x0000000000000ffa       0x4b src/vectors.o
+                                        0x26e (size before relaxing)
+ .debug_str     0x0000000000001045      0x2c5 lib-Mini51/hal/drv_hal.o
+                                        0x4d1 (size before relaxing)
+ .debug_str     0x000000000000130a       0xb8 lib-Mini51/hal/drv_pwm.o
+                                        0x3e6 (size before relaxing)
+ .debug_str     0x00000000000013c2      0x193 lib-Mini51/hal/drv_serial.o
+                                        0x464 (size before relaxing)
+ .debug_str     0x0000000000001555       0x5d lib-Mini51/hal/lib_adc.o
+                                        0x353 (size before relaxing)
+ .debug_str     0x00000000000015b2       0x9f lib-Mini51/hal/lib_digitalio.o
+                                        0x2a9 (size before relaxing)
+ .debug_str     0x0000000000001651      0x120 lib-Mini51/hal/lib_fp.o
+                                        0x37a (size before relaxing)
+ .debug_str     0x0000000000001771      0x197 lib-Mini51/hal/lib_i2c.o
+                                        0x450 (size before relaxing)
+ .debug_str     0x0000000000001908      0x113 lib-Mini51/hal/lib_serial.o
+                                        0x3fc (size before relaxing)
+ .debug_str     0x0000000000001a1b       0xb5 lib-Mini51/hal/lib_soft_3_wire_spi.o
+                                        0x2ff (size before relaxing)
+ .debug_str     0x0000000000001ad0      0x254 lib-Mini51/hal/lib_timers.o
+                                        0x4b9 (size before relaxing)
+ .debug_str     0x0000000000001d24      0x162 lib-Mini51/StdDriver/src/clk.o
+                                        0x3ef (size before relaxing)
+ .debug_str     0x0000000000001e86      0x186 lib-Mini51/StdDriver/src/fmc.o
+                                        0x37e (size before relaxing)
+ .debug_str     0x000000000000200c       0x62 lib-Mini51/StdDriver/src/gpio.o
+                                        0x206 (size before relaxing)
+ .debug_str     0x000000000000206e      0x2ca lib-Mini51/StdDriver/src/pwm.o
+                                        0x4f7 (size before relaxing)
+ .debug_str     0x0000000000002338       0xe1 lib-Mini51/StdDriver/src/sys.o
+                                        0x326 (size before relaxing)
+ .debug_str     0x0000000000002419      0x1cc lib-Mini51/StdDriver/src/uart.o
+                                        0x55b (size before relaxing)
+ .debug_str     0x00000000000025e5       0x5b lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+                                        0x25d (size before relaxing)
+ .debug_str     0x0000000000002640       0x8f lib-Mini51/startup_Mini51Series.o
+                                        0x18a (size before relaxing)
+
+.comment        0x0000000000000000       0x70
+ .comment       0x0000000000000000       0x70 src/a7105.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 src/accelerometer.o
+ .comment       0x0000000000000000       0x71 src/autotune.o
+ .comment       0x0000000000000000       0x71 src/bradwii.o
+ .comment       0x0000000000000000       0x71 src/checkboxes.o
+ .comment       0x0000000000000000       0x71 src/eeprom.o
+ .comment       0x0000000000000000       0x71 src/gyro.o
+ .comment       0x0000000000000000       0x71 src/imu.o
+ .comment       0x0000000000000000       0x71 src/leds.o
+ .comment       0x0000000000000000       0x71 src/output.o
+ .comment       0x0000000000000000       0x71 src/pilotcontrol.o
+ .comment       0x0000000000000000       0x71 src/rx_x4.o
+ .comment       0x0000000000000000       0x71 src/vectors.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/drv_hal.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/drv_pwm.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/drv_serial.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/lib_adc.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/lib_digitalio.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/lib_fp.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/lib_i2c.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/lib_serial.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/hal/lib_timers.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/clk.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/fmc.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/gpio.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/pwm.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/sys.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/StdDriver/src/uart.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .comment       0x0000000000000000       0x71 lib-Mini51/startup_Mini51Series.o
+
+.ARM.attributes
+                0x0000000000000000       0x31
+ .ARM.attributes
+                0x0000000000000000       0x31 src/a7105.o
+ .ARM.attributes
+                0x0000000000000031       0x31 src/accelerometer.o
+ .ARM.attributes
+                0x0000000000000062       0x31 src/autotune.o
+ .ARM.attributes
+                0x0000000000000093       0x31 src/bradwii.o
+ .ARM.attributes
+                0x00000000000000c4       0x31 src/checkboxes.o
+ .ARM.attributes
+                0x00000000000000f5       0x31 src/eeprom.o
+ .ARM.attributes
+                0x0000000000000126       0x31 src/gyro.o
+ .ARM.attributes
+                0x0000000000000157       0x31 src/imu.o
+ .ARM.attributes
+                0x0000000000000188       0x31 src/leds.o
+ .ARM.attributes
+                0x00000000000001b9       0x31 src/output.o
+ .ARM.attributes
+                0x00000000000001ea       0x31 src/pilotcontrol.o
+ .ARM.attributes
+                0x000000000000021b       0x31 src/rx_x4.o
+ .ARM.attributes
+                0x000000000000024c       0x31 src/vectors.o
+ .ARM.attributes
+                0x000000000000027d       0x31 lib-Mini51/hal/drv_hal.o
+ .ARM.attributes
+                0x00000000000002ae       0x31 lib-Mini51/hal/drv_pwm.o
+ .ARM.attributes
+                0x00000000000002df       0x31 lib-Mini51/hal/drv_serial.o
+ .ARM.attributes
+                0x0000000000000310       0x31 lib-Mini51/hal/lib_adc.o
+ .ARM.attributes
+                0x0000000000000341       0x31 lib-Mini51/hal/lib_digitalio.o
+ .ARM.attributes
+                0x0000000000000372       0x31 lib-Mini51/hal/lib_fp.o
+ .ARM.attributes
+                0x00000000000003a3       0x31 lib-Mini51/hal/lib_i2c.o
+ .ARM.attributes
+                0x00000000000003d4       0x31 lib-Mini51/hal/lib_serial.o
+ .ARM.attributes
+                0x0000000000000405       0x31 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .ARM.attributes
+                0x0000000000000436       0x31 lib-Mini51/hal/lib_timers.o
+ .ARM.attributes
+                0x0000000000000467       0x31 lib-Mini51/StdDriver/src/clk.o
+ .ARM.attributes
+                0x0000000000000498       0x31 lib-Mini51/StdDriver/src/fmc.o
+ .ARM.attributes
+                0x00000000000004c9       0x31 lib-Mini51/StdDriver/src/gpio.o
+ .ARM.attributes
+                0x00000000000004fa       0x31 lib-Mini51/StdDriver/src/pwm.o
+ .ARM.attributes
+                0x000000000000052b       0x31 lib-Mini51/StdDriver/src/sys.o
+ .ARM.attributes
+                0x000000000000055c       0x31 lib-Mini51/StdDriver/src/uart.o
+ .ARM.attributes
+                0x000000000000058d       0x31 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .ARM.attributes
+                0x00000000000005be       0x31 lib-Mini51/startup_Mini51Series.o
+ .ARM.attributes
+                0x00000000000005ef       0x1e /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000000000000060d       0x1e /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000000000062b       0x1e /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x0000000000000000     0x1458
+ .debug_frame   0x0000000000000000       0xe0 src/a7105.o
+ .debug_frame   0x00000000000000e0       0x44 src/accelerometer.o
+ .debug_frame   0x0000000000000124       0x34 src/autotune.o
+ .debug_frame   0x0000000000000158       0x64 src/bradwii.o
+ .debug_frame   0x00000000000001bc       0x2c src/checkboxes.o
+ .debug_frame   0x00000000000001e8       0x30 src/eeprom.o
+ .debug_frame   0x0000000000000218       0x44 src/gyro.o
+ .debug_frame   0x000000000000025c       0x68 src/imu.o
+ .debug_frame   0x00000000000002c4       0x88 src/leds.o
+ .debug_frame   0x000000000000034c       0x78 src/output.o
+ .debug_frame   0x00000000000003c4       0x4c src/pilotcontrol.o
+ .debug_frame   0x0000000000000410      0x104 src/rx_x4.o
+ .debug_frame   0x0000000000000514       0x88 src/vectors.o
+ .debug_frame   0x000000000000059c       0x8c lib-Mini51/hal/drv_hal.o
+ .debug_frame   0x0000000000000628       0x3c lib-Mini51/hal/drv_pwm.o
+ .debug_frame   0x0000000000000664       0xc8 lib-Mini51/hal/drv_serial.o
+ .debug_frame   0x000000000000072c       0x80 lib-Mini51/hal/lib_adc.o
+ .debug_frame   0x00000000000007ac       0x58 lib-Mini51/hal/lib_digitalio.o
+ .debug_frame   0x0000000000000804      0x138 lib-Mini51/hal/lib_fp.o
+ .debug_frame   0x000000000000093c      0x12c lib-Mini51/hal/lib_i2c.o
+ .debug_frame   0x0000000000000a68       0xe0 lib-Mini51/hal/lib_serial.o
+ .debug_frame   0x0000000000000b48       0xa8 lib-Mini51/hal/lib_soft_3_wire_spi.o
+ .debug_frame   0x0000000000000bf0       0xb4 lib-Mini51/hal/lib_timers.o
+ .debug_frame   0x0000000000000ca4      0x14c lib-Mini51/StdDriver/src/clk.o
+ .debug_frame   0x0000000000000df0      0x188 lib-Mini51/StdDriver/src/fmc.o
+ .debug_frame   0x0000000000000f78       0x54 lib-Mini51/StdDriver/src/gpio.o
+ .debug_frame   0x0000000000000fcc      0x1f4 lib-Mini51/StdDriver/src/pwm.o
+ .debug_frame   0x00000000000011c0       0xd8 lib-Mini51/StdDriver/src/sys.o
+ .debug_frame   0x0000000000001298      0x110 lib-Mini51/StdDriver/src/uart.o
+ .debug_frame   0x00000000000013a8       0x38 lib-Mini51/Device/Nuvoton/Mini51Series/Source/system_Mini51Series.o
+ .debug_frame   0x00000000000013e0       0x38 lib-Mini51/startup_Mini51Series.o
+ .debug_frame   0x0000000000001418       0x20 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000001438       0x20 /usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2015q2/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)

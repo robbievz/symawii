@@ -20,6 +20,10 @@
 
 COPTER="X4"
 
+GCC=/Users/gerrie/Library/embedXcode/gcc-arm-none-eabi-4_8-2014q3/bin/arm-none-eabi-gcc
+GCCOBJCOPY=/Users/gerrie/Library/embedXcode/gcc-arm-none-eabi-4_8-2014q3/bin/arm-none-eabi-objcopy
+GCCSIZE=/Users/gerrie/Library/embedXcode/gcc-arm-none-eabi-4_8-2014q3/bin/arm-none-eabi-size
+
 ifeq ($(COPTER), "X4")
 MICRO="MINI51"
 endif
@@ -51,24 +55,24 @@ all: symawii-x4-gcc.siz
 %.o: %.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross ARM C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -Os -ffunction-sections -fno-common -fno-builtin -Wall  -g -DX4_BUILD -DDEBUG_ENABLE_SEMIHOST -I"lib-Mini51/hal" -I"src" -I"lib-Mini51/Device/Nuvoton/Mini51Series/Include" -I"lib-Mini51/CMSIS/Include" -I"lib-Mini51/StdDriver/inc" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	$(GCC) -mcpu=cortex-m0 -mthumb -Os -ffunction-sections -fno-common -fno-builtin -Wall  -g -DX4_BUILD -DDEBUG_ENABLE_SEMIHOST -I"lib-Mini51/hal" -I"src" -I"lib-Mini51/Device/Nuvoton/Mini51Series/Include" -I"lib-Mini51/CMSIS/Include" -I"lib-Mini51/StdDriver/inc" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 
 symawii-x4-gcc: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -Os -ffunction-sections -fno-common -fno-builtin -Wall  -g -T "lib-Mini51/linker/memory.ld" -T "lib-Mini51/linker/link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"symawii-x4-gcc.map" -o "symawii-x4-gcc" $(OBJS) $(USER_OBJS) $(LIBS)
+	$(GCC) -mcpu=cortex-m0 -mthumb -Os -ffunction-sections -fno-common -fno-builtin -Wall  -g -T "lib-Mini51/linker/memory.ld" -T "lib-Mini51/linker/link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"symawii-x4-gcc.map" -o "symawii-x4-gcc" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 symawii-x4-gcc.hex: symawii-x4-gcc
 	@echo 'Invoking: Cross ARM GNU Create Flash Image'
-	arm-none-eabi-objcopy -O ihex --strip-unneeded "symawii-x4-gcc"  "symawii-x4-gcc.hex"
+	$(GCCOBJCOPY) -O ihex --strip-unneeded "symawii-x4-gcc"  "symawii-x4-gcc.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 symawii-x4-gcc.siz: symawii-x4-gcc
 	@echo 'Invoking: Cross ARM GNU Print Size'
-	arm-none-eabi-size --format=berkeley "symawii-x4-gcc"
+	$(GCCSIZE) --format=berkeley "symawii-x4-gcc"
 	@echo 'Finished building: $@'
 	@echo ' '
 
