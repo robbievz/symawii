@@ -23,12 +23,7 @@ Current status
 ####
 The control parameters habe been optimized in a way that flying feels similar to the original firmware.
 It is possible to lift off very slowly and fly close to the ground.
-The control parameters have not been tested in acro or semi-acro mode.
-
-Accelerometer calibration can be separated from gyro calibration, like the original firmware does. After executing the manual accelerometer calibration,
-the parameters are stored in data flash. At subsequent power-on only the gyro calibration is executed. This way there is no need to find a level surface
-for every power-on.
-
+{Does this apply?}
 Testing a new flight mode: "yaw hold". In this mode the yaw controller controls the yaw angle instead of the yaw rate.
 If the quadcopter gets rotated away from its desired heading (due to wind or high throttle or whatever), it will try to rotate back to the desired heading.
 This is similar to compass mode, but a compass is not needed. This mode can be activated using the checkboxes like all the other flight modes.
