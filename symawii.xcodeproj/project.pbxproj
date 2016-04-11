@@ -1,0 +1,1339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21D92C01CBC23E2004F23FE /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = C21D92BF1CBC23E2004F23FE /* Makefile */; };
+		C21D939F1CBC250F004F23FE /* arm_common_tables.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D934E1CBC24ED004F23FE /* arm_common_tables.h */; };
+		C21D93A01CBC250F004F23FE /* arm_math.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D934F1CBC24ED004F23FE /* arm_math.h */; };
+		C21D93A11CBC250F004F23FE /* core_cm0.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93501CBC24ED004F23FE /* core_cm0.h */; };
+		C21D93A21CBC250F004F23FE /* core_cm0plus.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93511CBC24ED004F23FE /* core_cm0plus.h */; };
+		C21D93A31CBC250F004F23FE /* core_cm3.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93521CBC24ED004F23FE /* core_cm3.h */; };
+		C21D93A41CBC250F004F23FE /* core_cm4.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93531CBC24ED004F23FE /* core_cm4.h */; };
+		C21D93A51CBC250F004F23FE /* core_cm4_simd.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93541CBC24ED004F23FE /* core_cm4_simd.h */; };
+		C21D93A61CBC250F004F23FE /* core_cmFunc.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93551CBC24ED004F23FE /* core_cmFunc.h */; };
+		C21D93A71CBC250F004F23FE /* core_cmInstr.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93561CBC24ED004F23FE /* core_cmInstr.h */; };
+		C21D93A81CBC250F004F23FE /* core_sc000.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93571CBC24ED004F23FE /* core_sc000.h */; };
+		C21D93A91CBC250F004F23FE /* core_sc300.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93581CBC24ED004F23FE /* core_sc300.h */; };
+		C21D93AA1CBC250F004F23FE /* Mini51Series.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D935F1CBC24ED004F23FE /* Mini51Series.h */; };
+		C21D93AB1CBC250F004F23FE /* system_Mini51Series.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93601CBC24ED004F23FE /* system_Mini51Series.h */; };
+		C21D93AC1CBC250F004F23FE /* drv_gpio.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93691CBC24ED004F23FE /* drv_gpio.h */; };
+		C21D93AD1CBC250F004F23FE /* drv_pwm.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D936C1CBC24ED004F23FE /* drv_pwm.h */; };
+		C21D93AE1CBC250F004F23FE /* drv_serial.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D936E1CBC24ED004F23FE /* drv_serial.h */; };
+		C21D93AF1CBC250F004F23FE /* hal.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D936F1CBC24ED004F23FE /* hal.h */; };
+		C21D93B01CBC250F004F23FE /* lib_adc.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93711CBC24ED004F23FE /* lib_adc.h */; };
+		C21D93B11CBC250F004F23FE /* lib_digitalio.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93731CBC24ED004F23FE /* lib_digitalio.h */; };
+		C21D93B21CBC250F004F23FE /* lib_fp.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93751CBC24ED004F23FE /* lib_fp.h */; };
+		C21D93B31CBC250F004F23FE /* lib_i2c.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93771CBC24ED004F23FE /* lib_i2c.h */; };
+		C21D93B41CBC250F004F23FE /* lib_serial.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93791CBC24ED004F23FE /* lib_serial.h */; };
+		C21D93B51CBC250F004F23FE /* lib_soft_3_wire_spi.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D937B1CBC24ED004F23FE /* lib_soft_3_wire_spi.h */; };
+		C21D93B61CBC250F004F23FE /* lib_spi.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D937D1CBC24ED004F23FE /* lib_spi.h */; };
+		C21D93B71CBC250F004F23FE /* lib_timers.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D937F1CBC24ED004F23FE /* lib_timers.h */; };
+		C21D93B81CBC250F004F23FE /* adc.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93871CBC24ED004F23FE /* adc.h */; };
+		C21D93B91CBC250F004F23FE /* clk.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93881CBC24ED004F23FE /* clk.h */; };
+		C21D93BA1CBC250F004F23FE /* fmc.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93891CBC24ED004F23FE /* fmc.h */; };
+		C21D93BB1CBC250F004F23FE /* gpio.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D938A1CBC24ED004F23FE /* gpio.h */; };
+		C21D93BC1CBC250F004F23FE /* i2c.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D938B1CBC24ED004F23FE /* i2c.h */; };
+		C21D93BD1CBC250F004F23FE /* pwm.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D938C1CBC24ED004F23FE /* pwm.h */; };
+		C21D93BE1CBC250F004F23FE /* spi.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D938D1CBC24ED004F23FE /* spi.h */; };
+		C21D93BF1CBC250F004F23FE /* sys.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D938E1CBC24ED004F23FE /* sys.h */; };
+		C21D93C01CBC250F004F23FE /* timer.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D938F1CBC24ED004F23FE /* timer.h */; };
+		C21D93C11CBC250F004F23FE /* uart.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93901CBC24ED004F23FE /* uart.h */; };
+		C21D93C21CBC250F004F23FE /* wdt.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93911CBC24ED004F23FE /* wdt.h */; };
+		C21D93C31CBC250F004F23FE /* a7105.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D931B1CBC24DF004F23FE /* a7105.h */; };
+		C21D93C41CBC250F004F23FE /* accelerometer.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D931D1CBC24DF004F23FE /* accelerometer.h */; };
+		C21D93C51CBC250F004F23FE /* autotune.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D931F1CBC24DF004F23FE /* autotune.h */; };
+		C21D93C61CBC250F004F23FE /* baro.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93211CBC24DF004F23FE /* baro.h */; };
+		C21D93C81CBC250F004F23FE /* checkboxes.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93251CBC24DF004F23FE /* checkboxes.h */; };
+		C21D93C91CBC250F004F23FE /* compass.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93271CBC24DF004F23FE /* compass.h */; };
+		C21D93CA1CBC250F004F23FE /* config.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93281CBC24DF004F23FE /* config.h */; };
+		C21D93CB1CBC250F004F23FE /* config_JD385.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93291CBC24DF004F23FE /* config_JD385.h */; };
+		C21D93CC1CBC250F004F23FE /* config_STM32.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932A1CBC24DF004F23FE /* config_STM32.h */; };
+		C21D93CD1CBC250F004F23FE /* config_V202.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932B1CBC24DF004F23FE /* config_V202.h */; };
+		C21D93CE1CBC250F004F23FE /* config_X4.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932C1CBC24DF004F23FE /* config_X4.h */; };
+		C21D93CF1CBC250F004F23FE /* defs.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932D1CBC24DF004F23FE /* defs.h */; };
+		C21D93D01CBC250F004F23FE /* eeprom.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932F1CBC24DF004F23FE /* eeprom.h */; };
+		C21D93D11CBC250F004F23FE /* gps.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93311CBC24DF004F23FE /* gps.h */; };
+		C21D93D21CBC250F004F23FE /* gyro.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93331CBC24DF004F23FE /* gyro.h */; };
+		C21D93D31CBC250F004F23FE /* imu.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93351CBC24DF004F23FE /* imu.h */; };
+		C21D93D41CBC250F004F23FE /* leds.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93371CBC24DF004F23FE /* leds.h */; };
+		C21D93D51CBC250F004F23FE /* navigation.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93391CBC24DF004F23FE /* navigation.h */; };
+		C21D93D61CBC250F004F23FE /* nrf24l01.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D933B1CBC24DF004F23FE /* nrf24l01.h */; };
+		C21D93D71CBC250F004F23FE /* options.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D933C1CBC24DF004F23FE /* options.h */; };
+		C21D93D81CBC250F004F23FE /* output.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D933E1CBC24DF004F23FE /* output.h */; };
+		C21D93D91CBC250F004F23FE /* pilotcontrol.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93401CBC24DF004F23FE /* pilotcontrol.h */; };
+		C21D93DA1CBC250F004F23FE /* projectsettings.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93411CBC24DF004F23FE /* projectsettings.h */; };
+		C21D93DB1CBC250F004F23FE /* rx.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93431CBC24DF004F23FE /* rx.h */; };
+		C21D93DC1CBC250F004F23FE /* serial.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93471CBC24DF004F23FE /* serial.h */; };
+		C21D93DD1CBC250F004F23FE /* vectors.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93491CBC24DF004F23FE /* vectors.h */; };
+		C21D93DE1CBC251F004F23FE /* system_Mini51Series.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93661CBC24ED004F23FE /* system_Mini51Series.c */; };
+		C21D93DF1CBC251F004F23FE /* drv_gpio.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93681CBC24ED004F23FE /* drv_gpio.c */; };
+		C21D93E01CBC251F004F23FE /* drv_hal.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D936A1CBC24ED004F23FE /* drv_hal.c */; };
+		C21D93E11CBC251F004F23FE /* drv_pwm.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D936B1CBC24ED004F23FE /* drv_pwm.c */; };
+		C21D93E21CBC251F004F23FE /* drv_serial.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D936D1CBC24ED004F23FE /* drv_serial.c */; };
+		C21D93E31CBC251F004F23FE /* lib_adc.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93701CBC24ED004F23FE /* lib_adc.c */; };
+		C21D93E41CBC251F004F23FE /* lib_digitalio.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93721CBC24ED004F23FE /* lib_digitalio.c */; };
+		C21D93E51CBC251F004F23FE /* lib_fp.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93741CBC24ED004F23FE /* lib_fp.c */; };
+		C21D93E61CBC251F004F23FE /* lib_i2c.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93761CBC24ED004F23FE /* lib_i2c.c */; };
+		C21D93E71CBC251F004F23FE /* lib_serial.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93781CBC24ED004F23FE /* lib_serial.c */; };
+		C21D93E81CBC251F004F23FE /* lib_soft_3_wire_spi.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D937A1CBC24ED004F23FE /* lib_soft_3_wire_spi.c */; };
+		C21D93E91CBC251F004F23FE /* lib_spi.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D937C1CBC24ED004F23FE /* lib_spi.c */; };
+		C21D93EA1CBC251F004F23FE /* lib_timers.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D937E1CBC24ED004F23FE /* lib_timers.c */; };
+		C21D93EB1CBC251F004F23FE /* startup_Mini51Series.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93831CBC24ED004F23FE /* startup_Mini51Series.c */; };
+		C21D93EC1CBC251F004F23FE /* adc.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93931CBC24ED004F23FE /* adc.c */; };
+		C21D93ED1CBC251F004F23FE /* clk.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93941CBC24ED004F23FE /* clk.c */; };
+		C21D93EE1CBC251F004F23FE /* fmc.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93951CBC24ED004F23FE /* fmc.c */; };
+		C21D93EF1CBC251F004F23FE /* gpio.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93961CBC24ED004F23FE /* gpio.c */; };
+		C21D93F01CBC251F004F23FE /* i2c.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93971CBC24ED004F23FE /* i2c.c */; };
+		C21D93F11CBC251F004F23FE /* pwm.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93981CBC24ED004F23FE /* pwm.c */; };
+		C21D93F21CBC251F004F23FE /* retarget.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93991CBC24ED004F23FE /* retarget.c */; };
+		C21D93F31CBC251F004F23FE /* spi.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D939A1CBC24ED004F23FE /* spi.c */; };
+		C21D93F41CBC251F004F23FE /* sys.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D939B1CBC24ED004F23FE /* sys.c */; };
+		C21D93F51CBC251F004F23FE /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D939C1CBC24ED004F23FE /* timer.c */; };
+		C21D93F61CBC251F004F23FE /* uart.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D939D1CBC24ED004F23FE /* uart.c */; };
+		C21D93F71CBC251F004F23FE /* wdt.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D939E1CBC24ED004F23FE /* wdt.c */; };
+		C21D93F81CBC251F004F23FE /* a7105.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D931A1CBC24DF004F23FE /* a7105.c */; };
+		C21D93F91CBC251F004F23FE /* accelerometer.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D931C1CBC24DF004F23FE /* accelerometer.c */; };
+		C21D93FA1CBC251F004F23FE /* autotune.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D931E1CBC24DF004F23FE /* autotune.c */; };
+		C21D93FB1CBC251F004F23FE /* baro.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93201CBC24DF004F23FE /* baro.c */; };
+		C21D93FD1CBC251F004F23FE /* checkboxes.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93241CBC24DF004F23FE /* checkboxes.c */; };
+		C21D93FE1CBC251F004F23FE /* compass.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93261CBC24DF004F23FE /* compass.c */; };
+		C21D93FF1CBC251F004F23FE /* eeprom.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D932E1CBC24DF004F23FE /* eeprom.c */; };
+		C21D94001CBC251F004F23FE /* gps.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93301CBC24DF004F23FE /* gps.c */; };
+		C21D94011CBC251F004F23FE /* gyro.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93321CBC24DF004F23FE /* gyro.c */; };
+		C21D94021CBC251F004F23FE /* imu.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93341CBC24DF004F23FE /* imu.c */; };
+		C21D94031CBC251F004F23FE /* leds.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93361CBC24DF004F23FE /* leds.c */; };
+		C21D94041CBC251F004F23FE /* navigation.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93381CBC24DF004F23FE /* navigation.c */; };
+		C21D94051CBC251F004F23FE /* nrf24l01.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D933A1CBC24DF004F23FE /* nrf24l01.c */; };
+		C21D94061CBC251F004F23FE /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D933D1CBC24DF004F23FE /* output.c */; };
+		C21D94071CBC251F004F23FE /* pilotcontrol.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D933F1CBC24DF004F23FE /* pilotcontrol.c */; };
+		C21D94081CBC251F004F23FE /* rx.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93421CBC24DF004F23FE /* rx.c */; };
+		C21D94091CBC251F004F23FE /* rx_v202.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93441CBC24DF004F23FE /* rx_v202.c */; };
+		C21D940A1CBC251F004F23FE /* rx_x4.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93451CBC24DF004F23FE /* rx_x4.c */; };
+		C21D940B1CBC251F004F23FE /* serial.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93461CBC24DF004F23FE /* serial.c */; };
+		C21D940C1CBC251F004F23FE /* vectors.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93481CBC24DF004F23FE /* vectors.c */; };
+		C21D940F1CBC260A004F23FE /* symawii.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D940D1CBC25D1004F23FE /* symawii.h */; };
+		C21D94101CBC260A004F23FE /* symawii.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D940E1CBC25D1004F23FE /* symawii.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C21D92BA1CBC23E2004F23FE /* Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Index; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21D92BF1CBC23E2004F23FE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C21D92C11CBC23E2004F23FE /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		C21D92C31CBC23E2004F23FE /* Sketchbook.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Sketchbook.txt; path = Sketchbook/Sketchbook.txt; sourceTree = "<group>"; };
+		C21D92C51CBC23E2004F23FE /* Discovery STM32F429.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Discovery STM32F429.xcconfig"; path = "Configurations/Discovery STM32F429.xcconfig"; sourceTree = "<group>"; };
+		C21D92C61CBC23E2004F23FE /* Discovery STM32F746.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Discovery STM32F746.xcconfig"; path = "Configurations/Discovery STM32F746.xcconfig"; sourceTree = "<group>"; };
+		C21D92C71CBC23E2004F23FE /* Freedom KL25Z.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Freedom KL25Z.xcconfig"; path = "Configurations/Freedom KL25Z.xcconfig"; sourceTree = "<group>"; };
+		C21D92C81CBC23E2004F23FE /* Freedom K64F.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Freedom K64F.xcconfig"; path = "Configurations/Freedom K64F.xcconfig"; sourceTree = "<group>"; };
+		C21D92C91CBC23E2004F23FE /* LPC1768.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = LPC1768.xcconfig; path = Configurations/LPC1768.xcconfig; sourceTree = "<group>"; };
+		C21D92CA1CBC23E2004F23FE /* Nordic nRF51822.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Nordic nRF51822.xcconfig"; path = "Configurations/Nordic nRF51822.xcconfig"; sourceTree = "<group>"; };
+		C21D92CB1CBC23E2004F23FE /* Nucleo F401RE.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Nucleo F401RE.xcconfig"; path = "Configurations/Nucleo F401RE.xcconfig"; sourceTree = "<group>"; };
+		C21D92CC1CBC23E2004F23FE /* Nucleo F072RB.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Nucleo F072RB.xcconfig"; path = "Configurations/Nucleo F072RB.xcconfig"; sourceTree = "<group>"; };
+		C21D92CD1CBC23E2004F23FE /* Nucleo L152RE.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Nucleo L152RE.xcconfig"; path = "Configurations/Nucleo L152RE.xcconfig"; sourceTree = "<group>"; };
+		C21D92CE1CBC23E2004F23FE /* RedBearLab BLE Nano (mbed).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "RedBearLab BLE Nano (mbed).xcconfig"; path = "Configurations/RedBearLab BLE Nano (mbed).xcconfig"; sourceTree = "<group>"; };
+		C21D92CF1CBC23E2004F23FE /* RedBearLab nRF51822 (mbed).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "RedBearLab nRF51822 (mbed).xcconfig"; path = "Configurations/RedBearLab nRF51822 (mbed).xcconfig"; sourceTree = "<group>"; };
+		C21D92D01CBC23E2004F23FE /* Seeed Arch BLE (mbed).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Seeed Arch BLE (mbed).xcconfig"; path = "Configurations/Seeed Arch BLE (mbed).xcconfig"; sourceTree = "<group>"; };
+		C21D92D11CBC23E2004F23FE /* My Board (mbed).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "My Board (mbed).xcconfig"; path = "Configurations/My Board (mbed).xcconfig"; sourceTree = "<group>"; };
+		C21D92D31CBC23E2004F23FE /* mbed.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = mbed.mk; path = Makefiles/mbed.mk; sourceTree = "<group>"; };
+		C21D92D41CBC23E2004F23FE /* mbed_fast.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = mbed_fast.mk; path = Makefiles/mbed_fast.mk; sourceTree = "<group>"; };
+		C21D92D51CBC23E2004F23FE /* mbed_full.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = mbed_full.mk; path = Makefiles/mbed_full.mk; sourceTree = "<group>"; };
+		C21D92D61CBC23E2004F23FE /* mbed_K64F_fast.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = mbed_K64F_fast.mk; path = Makefiles/mbed_K64F_fast.mk; sourceTree = "<group>"; };
+		C21D92D71CBC23E3004F23FE /* mbed_K64F_full.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = mbed_K64F_full.mk; path = Makefiles/mbed_K64F_full.mk; sourceTree = "<group>"; };
+		C21D92D81CBC23E3004F23FE /* About.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = About.mk; path = Makefiles/About.mk; sourceTree = "<group>"; };
+		C21D92D91CBC23E3004F23FE /* Step1.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Step1.mk; path = Makefiles/Step1.mk; sourceTree = "<group>"; };
+		C21D92DA1CBC23E3004F23FE /* Step2.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Step2.mk; path = Makefiles/Step2.mk; sourceTree = "<group>"; };
+		C21D92DB1CBC23E3004F23FE /* Avrdude.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Avrdude.mk; path = Makefiles/Avrdude.mk; sourceTree = "<group>"; };
+		C21D92DC1CBC23E3004F23FE /* Doxygen.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Doxygen.mk; path = Makefiles/Doxygen.mk; sourceTree = "<group>"; };
+		C21D92DD1CBC23E3004F23FE /* Debug.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = Debug.mk; path = Makefiles/Debug.mk; sourceTree = "<group>"; };
+		C21D92DF1CBC23E3004F23FE /* doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = doxyfile; path = Utilities/doxyfile; sourceTree = "<group>"; };
+		C21D92E01CBC23E3004F23FE /* distribute.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = distribute.sh; path = Utilities/distribute.sh; sourceTree = "<group>"; };
+		C21D92E11CBC23E3004F23FE /* document.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = document.sh; path = Utilities/document.sh; sourceTree = "<group>"; };
+		C21D92E21CBC23E3004F23FE /* embedXcode_prepare */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_prepare; path = Utilities/embedXcode_prepare; sourceTree = "<group>"; };
+		C21D92E31CBC23E3004F23FE /* embedXcode_check */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_check; path = Utilities/embedXcode_check; sourceTree = "<group>"; };
+		C21D92E41CBC23E3004F23FE /* embedXcode_chrono */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_chrono; path = Utilities/embedXcode_chrono; sourceTree = "<group>"; };
+		C21D92E51CBC23E3004F23FE /* embedXcode_debug */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_debug; path = Utilities/embedXcode_debug; sourceTree = "<group>"; };
+		C21D92E61CBC23E3004F23FE /* debug_ARCH_BLE_mbed.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_ARCH_BLE_mbed.cfg; path = Utilities/debug_ARCH_BLE_mbed.cfg; sourceTree = "<group>"; };
+		C21D92E71CBC23E3004F23FE /* debug_NUCLEO_F401RE.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_NUCLEO_F401RE.cfg; path = Utilities/debug_NUCLEO_F401RE.cfg; sourceTree = "<group>"; };
+		C21D92E81CBC23E3004F23FE /* debug_NUCLEO_L152RE.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_NUCLEO_L152RE.cfg; path = Utilities/debug_NUCLEO_L152RE.cfg; sourceTree = "<group>"; };
+		C21D92E91CBC23E3004F23FE /* debug_NUCLEO_F072RB.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_NUCLEO_F072RB.cfg; path = Utilities/debug_NUCLEO_F072RB.cfg; sourceTree = "<group>"; };
+		C21D92EA1CBC23E3004F23FE /* debug_LPC1768.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_LPC1768.cfg; path = Utilities/debug_LPC1768.cfg; sourceTree = "<group>"; };
+		C21D92EB1CBC23E3004F23FE /* debug_KL25Z.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_KL25Z.cfg; path = Utilities/debug_KL25Z.cfg; sourceTree = "<group>"; };
+		C21D92EC1CBC23E3004F23FE /* debug_K64F.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_K64F.cfg; path = Utilities/debug_K64F.cfg; sourceTree = "<group>"; };
+		C21D92ED1CBC23E3004F23FE /* debug_NORDIC_NRF51822_MKIT.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_NORDIC_NRF51822_MKIT.cfg; path = Utilities/debug_NORDIC_NRF51822_MKIT.cfg; sourceTree = "<group>"; };
+		C21D92EE1CBC23E3004F23FE /* debug_RBLAB_BLENANO_mbed.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_RBLAB_BLENANO_mbed.cfg; path = Utilities/debug_RBLAB_BLENANO_mbed.cfg; sourceTree = "<group>"; };
+		C21D92EF1CBC23E3004F23FE /* debug_RBLAB_NRF51822_mbed.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = debug_RBLAB_NRF51822_mbed.cfg; path = Utilities/debug_RBLAB_NRF51822_mbed.cfg; sourceTree = "<group>"; };
+		C21D92F01CBC23E3004F23FE /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = TemplateIcon.icns; path = Utilities/TemplateIcon.icns; sourceTree = "<group>"; };
+		C21D931A1CBC24DF004F23FE /* a7105.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = a7105.c; sourceTree = "<group>"; };
+		C21D931B1CBC24DF004F23FE /* a7105.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = a7105.h; sourceTree = "<group>"; };
+		C21D931C1CBC24DF004F23FE /* accelerometer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = accelerometer.c; sourceTree = "<group>"; };
+		C21D931D1CBC24DF004F23FE /* accelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerometer.h; sourceTree = "<group>"; };
+		C21D931E1CBC24DF004F23FE /* autotune.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = autotune.c; sourceTree = "<group>"; };
+		C21D931F1CBC24DF004F23FE /* autotune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autotune.h; sourceTree = "<group>"; };
+		C21D93201CBC24DF004F23FE /* baro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = baro.c; sourceTree = "<group>"; };
+		C21D93211CBC24DF004F23FE /* baro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baro.h; sourceTree = "<group>"; };
+		C21D93241CBC24DF004F23FE /* checkboxes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = checkboxes.c; sourceTree = "<group>"; };
+		C21D93251CBC24DF004F23FE /* checkboxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkboxes.h; sourceTree = "<group>"; };
+		C21D93261CBC24DF004F23FE /* compass.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compass.c; sourceTree = "<group>"; };
+		C21D93271CBC24DF004F23FE /* compass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compass.h; sourceTree = "<group>"; };
+		C21D93281CBC24DF004F23FE /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		C21D93291CBC24DF004F23FE /* config_JD385.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_JD385.h; sourceTree = "<group>"; };
+		C21D932A1CBC24DF004F23FE /* config_STM32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_STM32.h; sourceTree = "<group>"; };
+		C21D932B1CBC24DF004F23FE /* config_V202.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_V202.h; sourceTree = "<group>"; };
+		C21D932C1CBC24DF004F23FE /* config_X4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_X4.h; sourceTree = "<group>"; };
+		C21D932D1CBC24DF004F23FE /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		C21D932E1CBC24DF004F23FE /* eeprom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eeprom.c; sourceTree = "<group>"; };
+		C21D932F1CBC24DF004F23FE /* eeprom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eeprom.h; sourceTree = "<group>"; };
+		C21D93301CBC24DF004F23FE /* gps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gps.c; sourceTree = "<group>"; };
+		C21D93311CBC24DF004F23FE /* gps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gps.h; sourceTree = "<group>"; };
+		C21D93321CBC24DF004F23FE /* gyro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gyro.c; sourceTree = "<group>"; };
+		C21D93331CBC24DF004F23FE /* gyro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyro.h; sourceTree = "<group>"; };
+		C21D93341CBC24DF004F23FE /* imu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = imu.c; sourceTree = "<group>"; };
+		C21D93351CBC24DF004F23FE /* imu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imu.h; sourceTree = "<group>"; };
+		C21D93361CBC24DF004F23FE /* leds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = leds.c; sourceTree = "<group>"; };
+		C21D93371CBC24DF004F23FE /* leds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leds.h; sourceTree = "<group>"; };
+		C21D93381CBC24DF004F23FE /* navigation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = navigation.c; sourceTree = "<group>"; };
+		C21D93391CBC24DF004F23FE /* navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigation.h; sourceTree = "<group>"; };
+		C21D933A1CBC24DF004F23FE /* nrf24l01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nrf24l01.c; sourceTree = "<group>"; };
+		C21D933B1CBC24DF004F23FE /* nrf24l01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nrf24l01.h; sourceTree = "<group>"; };
+		C21D933C1CBC24DF004F23FE /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		C21D933D1CBC24DF004F23FE /* output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = output.c; sourceTree = "<group>"; };
+		C21D933E1CBC24DF004F23FE /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output.h; sourceTree = "<group>"; };
+		C21D933F1CBC24DF004F23FE /* pilotcontrol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pilotcontrol.c; sourceTree = "<group>"; };
+		C21D93401CBC24DF004F23FE /* pilotcontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pilotcontrol.h; sourceTree = "<group>"; };
+		C21D93411CBC24DF004F23FE /* projectsettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = projectsettings.h; sourceTree = "<group>"; };
+		C21D93421CBC24DF004F23FE /* rx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rx.c; sourceTree = "<group>"; };
+		C21D93431CBC24DF004F23FE /* rx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rx.h; sourceTree = "<group>"; };
+		C21D93441CBC24DF004F23FE /* rx_v202.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rx_v202.c; sourceTree = "<group>"; };
+		C21D93451CBC24DF004F23FE /* rx_x4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rx_x4.c; sourceTree = "<group>"; };
+		C21D93461CBC24DF004F23FE /* serial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = serial.c; sourceTree = "<group>"; };
+		C21D93471CBC24DF004F23FE /* serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serial.h; sourceTree = "<group>"; };
+		C21D93481CBC24DF004F23FE /* vectors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vectors.c; sourceTree = "<group>"; };
+		C21D93491CBC24DF004F23FE /* vectors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vectors.h; sourceTree = "<group>"; };
+		C21D934C1CBC24ED004F23FE /* CMSIS END USER LICENCE AGREEMENT.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CMSIS END USER LICENCE AGREEMENT.pdf"; sourceTree = "<group>"; };
+		C21D934E1CBC24ED004F23FE /* arm_common_tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arm_common_tables.h; sourceTree = "<group>"; };
+		C21D934F1CBC24ED004F23FE /* arm_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arm_math.h; sourceTree = "<group>"; };
+		C21D93501CBC24ED004F23FE /* core_cm0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_cm0.h; sourceTree = "<group>"; };
+		C21D93511CBC24ED004F23FE /* core_cm0plus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_cm0plus.h; sourceTree = "<group>"; };
+		C21D93521CBC24ED004F23FE /* core_cm3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_cm3.h; sourceTree = "<group>"; };
+		C21D93531CBC24ED004F23FE /* core_cm4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_cm4.h; sourceTree = "<group>"; };
+		C21D93541CBC24ED004F23FE /* core_cm4_simd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_cm4_simd.h; sourceTree = "<group>"; };
+		C21D93551CBC24ED004F23FE /* core_cmFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_cmFunc.h; sourceTree = "<group>"; };
+		C21D93561CBC24ED004F23FE /* core_cmInstr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_cmInstr.h; sourceTree = "<group>"; };
+		C21D93571CBC24ED004F23FE /* core_sc000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_sc000.h; sourceTree = "<group>"; };
+		C21D93581CBC24ED004F23FE /* core_sc300.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_sc300.h; sourceTree = "<group>"; };
+		C21D93591CBC24ED004F23FE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C21D935A1CBC24ED004F23FE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		C21D935F1CBC24ED004F23FE /* Mini51Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mini51Series.h; sourceTree = "<group>"; };
+		C21D93601CBC24ED004F23FE /* system_Mini51Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system_Mini51Series.h; sourceTree = "<group>"; };
+		C21D93631CBC24ED004F23FE /* startup_Mini51Series.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = startup_Mini51Series.s; sourceTree = "<group>"; };
+		C21D93651CBC24ED004F23FE /* startup_Mini51Series.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = startup_Mini51Series.s; sourceTree = "<group>"; };
+		C21D93661CBC24ED004F23FE /* system_Mini51Series.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = system_Mini51Series.c; sourceTree = "<group>"; };
+		C21D93681CBC24ED004F23FE /* drv_gpio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drv_gpio.c; sourceTree = "<group>"; };
+		C21D93691CBC24ED004F23FE /* drv_gpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drv_gpio.h; sourceTree = "<group>"; };
+		C21D936A1CBC24ED004F23FE /* drv_hal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drv_hal.c; sourceTree = "<group>"; };
+		C21D936B1CBC24ED004F23FE /* drv_pwm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drv_pwm.c; sourceTree = "<group>"; };
+		C21D936C1CBC24ED004F23FE /* drv_pwm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drv_pwm.h; sourceTree = "<group>"; };
+		C21D936D1CBC24ED004F23FE /* drv_serial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drv_serial.c; sourceTree = "<group>"; };
+		C21D936E1CBC24ED004F23FE /* drv_serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drv_serial.h; sourceTree = "<group>"; };
+		C21D936F1CBC24ED004F23FE /* hal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hal.h; sourceTree = "<group>"; };
+		C21D93701CBC24ED004F23FE /* lib_adc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lib_adc.c; sourceTree = "<group>"; };
+		C21D93711CBC24ED004F23FE /* lib_adc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_adc.h; sourceTree = "<group>"; };
+		C21D93721CBC24ED004F23FE /* lib_digitalio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lib_digitalio.c; sourceTree = "<group>"; };
+		C21D93731CBC24ED004F23FE /* lib_digitalio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_digitalio.h; sourceTree = "<group>"; };
+		C21D93741CBC24ED004F23FE /* lib_fp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lib_fp.c; sourceTree = "<group>"; };
+		C21D93751CBC24ED004F23FE /* lib_fp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_fp.h; sourceTree = "<group>"; };
+		C21D93761CBC24ED004F23FE /* lib_i2c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lib_i2c.c; sourceTree = "<group>"; };
+		C21D93771CBC24ED004F23FE /* lib_i2c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_i2c.h; sourceTree = "<group>"; };
+		C21D93781CBC24ED004F23FE /* lib_serial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lib_serial.c; sourceTree = "<group>"; };
+		C21D93791CBC24ED004F23FE /* lib_serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_serial.h; sourceTree = "<group>"; };
+		C21D937A1CBC24ED004F23FE /* lib_soft_3_wire_spi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lib_soft_3_wire_spi.c; sourceTree = "<group>"; };
+		C21D937B1CBC24ED004F23FE /* lib_soft_3_wire_spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_soft_3_wire_spi.h; sourceTree = "<group>"; };
+		C21D937C1CBC24ED004F23FE /* lib_spi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lib_spi.c; sourceTree = "<group>"; };
+		C21D937D1CBC24ED004F23FE /* lib_spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_spi.h; sourceTree = "<group>"; };
+		C21D937E1CBC24ED004F23FE /* lib_timers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lib_timers.c; sourceTree = "<group>"; };
+		C21D937F1CBC24ED004F23FE /* lib_timers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib_timers.h; sourceTree = "<group>"; };
+		C21D93811CBC24ED004F23FE /* link.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.ld; sourceTree = "<group>"; };
+		C21D93821CBC24ED004F23FE /* memory.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = memory.ld; sourceTree = "<group>"; };
+		C21D93831CBC24ED004F23FE /* startup_Mini51Series.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = startup_Mini51Series.c; sourceTree = "<group>"; };
+		C21D93841CBC24ED004F23FE /* startup_Mini51Series.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = startup_Mini51Series.s; sourceTree = "<group>"; };
+		C21D93871CBC24ED004F23FE /* adc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adc.h; sourceTree = "<group>"; };
+		C21D93881CBC24ED004F23FE /* clk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clk.h; sourceTree = "<group>"; };
+		C21D93891CBC24ED004F23FE /* fmc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmc.h; sourceTree = "<group>"; };
+		C21D938A1CBC24ED004F23FE /* gpio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpio.h; sourceTree = "<group>"; };
+		C21D938B1CBC24ED004F23FE /* i2c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = i2c.h; sourceTree = "<group>"; };
+		C21D938C1CBC24ED004F23FE /* pwm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwm.h; sourceTree = "<group>"; };
+		C21D938D1CBC24ED004F23FE /* spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spi.h; sourceTree = "<group>"; };
+		C21D938E1CBC24ED004F23FE /* sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sys.h; sourceTree = "<group>"; };
+		C21D938F1CBC24ED004F23FE /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		C21D93901CBC24ED004F23FE /* uart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uart.h; sourceTree = "<group>"; };
+		C21D93911CBC24ED004F23FE /* wdt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wdt.h; sourceTree = "<group>"; };
+		C21D93931CBC24ED004F23FE /* adc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adc.c; sourceTree = "<group>"; };
+		C21D93941CBC24ED004F23FE /* clk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clk.c; sourceTree = "<group>"; };
+		C21D93951CBC24ED004F23FE /* fmc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fmc.c; sourceTree = "<group>"; };
+		C21D93961CBC24ED004F23FE /* gpio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gpio.c; sourceTree = "<group>"; };
+		C21D93971CBC24ED004F23FE /* i2c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = i2c.c; sourceTree = "<group>"; };
+		C21D93981CBC24ED004F23FE /* pwm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwm.c; sourceTree = "<group>"; };
+		C21D93991CBC24ED004F23FE /* retarget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = retarget.c; sourceTree = "<group>"; };
+		C21D939A1CBC24ED004F23FE /* spi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spi.c; sourceTree = "<group>"; };
+		C21D939B1CBC24ED004F23FE /* sys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sys.c; sourceTree = "<group>"; };
+		C21D939C1CBC24ED004F23FE /* timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
+		C21D939D1CBC24ED004F23FE /* uart.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uart.c; sourceTree = "<group>"; };
+		C21D939E1CBC24ED004F23FE /* wdt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wdt.c; sourceTree = "<group>"; };
+		C21D940D1CBC25D1004F23FE /* symawii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symawii.h; sourceTree = "<group>"; };
+		C21D940E1CBC25D1004F23FE /* symawii.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symawii.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C21D92A81CBC23E2004F23FE = {
+			isa = PBXGroup;
+			children = (
+				C21D92BC1CBC23E2004F23FE /* symawii */,
+				C21D92BB1CBC23E2004F23FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21D92BB1CBC23E2004F23FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21D92BA1CBC23E2004F23FE /* Index */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21D92BC1CBC23E2004F23FE /* symawii */ = {
+			isa = PBXGroup;
+			children = (
+				C21D92BF1CBC23E2004F23FE /* Makefile */,
+				C21D92C11CBC23E2004F23FE /* ReadMe.txt */,
+				C21D92C21CBC23E2004F23FE /* Sketchbook */,
+				C21D92C41CBC23E2004F23FE /* Configurations */,
+				C21D92D21CBC23E2004F23FE /* Makefiles */,
+				C21D92DE1CBC23E3004F23FE /* Utilities */,
+			);
+			path = symawii;
+			sourceTree = "<group>";
+		};
+		C21D92C21CBC23E2004F23FE /* Sketchbook */ = {
+			isa = PBXGroup;
+			children = (
+				C21D934A1CBC24ED004F23FE /* lib-Mini51 */,
+				C21D93191CBC24DF004F23FE /* src */,
+				C21D92C31CBC23E2004F23FE /* Sketchbook.txt */,
+			);
+			name = Sketchbook;
+			sourceTree = "<group>";
+		};
+		C21D92C41CBC23E2004F23FE /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				C21D92C51CBC23E2004F23FE /* Discovery STM32F429.xcconfig */,
+				C21D92C61CBC23E2004F23FE /* Discovery STM32F746.xcconfig */,
+				C21D92C71CBC23E2004F23FE /* Freedom KL25Z.xcconfig */,
+				C21D92C81CBC23E2004F23FE /* Freedom K64F.xcconfig */,
+				C21D92C91CBC23E2004F23FE /* LPC1768.xcconfig */,
+				C21D92CA1CBC23E2004F23FE /* Nordic nRF51822.xcconfig */,
+				C21D92CB1CBC23E2004F23FE /* Nucleo F401RE.xcconfig */,
+				C21D92CC1CBC23E2004F23FE /* Nucleo F072RB.xcconfig */,
+				C21D92CD1CBC23E2004F23FE /* Nucleo L152RE.xcconfig */,
+				C21D92CE1CBC23E2004F23FE /* RedBearLab BLE Nano (mbed).xcconfig */,
+				C21D92CF1CBC23E2004F23FE /* RedBearLab nRF51822 (mbed).xcconfig */,
+				C21D92D01CBC23E2004F23FE /* Seeed Arch BLE (mbed).xcconfig */,
+				C21D92D11CBC23E2004F23FE /* My Board (mbed).xcconfig */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		C21D92D21CBC23E2004F23FE /* Makefiles */ = {
+			isa = PBXGroup;
+			children = (
+				C21D92D31CBC23E2004F23FE /* mbed.mk */,
+				C21D92D41CBC23E2004F23FE /* mbed_fast.mk */,
+				C21D92D51CBC23E2004F23FE /* mbed_full.mk */,
+				C21D92D61CBC23E2004F23FE /* mbed_K64F_fast.mk */,
+				C21D92D71CBC23E3004F23FE /* mbed_K64F_full.mk */,
+				C21D92D81CBC23E3004F23FE /* About.mk */,
+				C21D92D91CBC23E3004F23FE /* Step1.mk */,
+				C21D92DA1CBC23E3004F23FE /* Step2.mk */,
+				C21D92DB1CBC23E3004F23FE /* Avrdude.mk */,
+				C21D92DC1CBC23E3004F23FE /* Doxygen.mk */,
+				C21D92DD1CBC23E3004F23FE /* Debug.mk */,
+			);
+			name = Makefiles;
+			sourceTree = "<group>";
+		};
+		C21D92DE1CBC23E3004F23FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C21D92DF1CBC23E3004F23FE /* doxyfile */,
+				C21D92E01CBC23E3004F23FE /* distribute.sh */,
+				C21D92E11CBC23E3004F23FE /* document.sh */,
+				C21D92E21CBC23E3004F23FE /* embedXcode_prepare */,
+				C21D92E31CBC23E3004F23FE /* embedXcode_check */,
+				C21D92E41CBC23E3004F23FE /* embedXcode_chrono */,
+				C21D92E51CBC23E3004F23FE /* embedXcode_debug */,
+				C21D92E61CBC23E3004F23FE /* debug_ARCH_BLE_mbed.cfg */,
+				C21D92E71CBC23E3004F23FE /* debug_NUCLEO_F401RE.cfg */,
+				C21D92E81CBC23E3004F23FE /* debug_NUCLEO_L152RE.cfg */,
+				C21D92E91CBC23E3004F23FE /* debug_NUCLEO_F072RB.cfg */,
+				C21D92EA1CBC23E3004F23FE /* debug_LPC1768.cfg */,
+				C21D92EB1CBC23E3004F23FE /* debug_KL25Z.cfg */,
+				C21D92EC1CBC23E3004F23FE /* debug_K64F.cfg */,
+				C21D92ED1CBC23E3004F23FE /* debug_NORDIC_NRF51822_MKIT.cfg */,
+				C21D92EE1CBC23E3004F23FE /* debug_RBLAB_BLENANO_mbed.cfg */,
+				C21D92EF1CBC23E3004F23FE /* debug_RBLAB_NRF51822_mbed.cfg */,
+				C21D92F01CBC23E3004F23FE /* TemplateIcon.icns */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		C21D93191CBC24DF004F23FE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C21D940D1CBC25D1004F23FE /* symawii.h */,
+				C21D940E1CBC25D1004F23FE /* symawii.c */,
+				C21D931A1CBC24DF004F23FE /* a7105.c */,
+				C21D931B1CBC24DF004F23FE /* a7105.h */,
+				C21D931C1CBC24DF004F23FE /* accelerometer.c */,
+				C21D931D1CBC24DF004F23FE /* accelerometer.h */,
+				C21D931E1CBC24DF004F23FE /* autotune.c */,
+				C21D931F1CBC24DF004F23FE /* autotune.h */,
+				C21D93201CBC24DF004F23FE /* baro.c */,
+				C21D93211CBC24DF004F23FE /* baro.h */,
+				C21D93241CBC24DF004F23FE /* checkboxes.c */,
+				C21D93251CBC24DF004F23FE /* checkboxes.h */,
+				C21D93261CBC24DF004F23FE /* compass.c */,
+				C21D93271CBC24DF004F23FE /* compass.h */,
+				C21D93281CBC24DF004F23FE /* config.h */,
+				C21D93291CBC24DF004F23FE /* config_JD385.h */,
+				C21D932A1CBC24DF004F23FE /* config_STM32.h */,
+				C21D932B1CBC24DF004F23FE /* config_V202.h */,
+				C21D932C1CBC24DF004F23FE /* config_X4.h */,
+				C21D932D1CBC24DF004F23FE /* defs.h */,
+				C21D932E1CBC24DF004F23FE /* eeprom.c */,
+				C21D932F1CBC24DF004F23FE /* eeprom.h */,
+				C21D93301CBC24DF004F23FE /* gps.c */,
+				C21D93311CBC24DF004F23FE /* gps.h */,
+				C21D93321CBC24DF004F23FE /* gyro.c */,
+				C21D93331CBC24DF004F23FE /* gyro.h */,
+				C21D93341CBC24DF004F23FE /* imu.c */,
+				C21D93351CBC24DF004F23FE /* imu.h */,
+				C21D93361CBC24DF004F23FE /* leds.c */,
+				C21D93371CBC24DF004F23FE /* leds.h */,
+				C21D93381CBC24DF004F23FE /* navigation.c */,
+				C21D93391CBC24DF004F23FE /* navigation.h */,
+				C21D933A1CBC24DF004F23FE /* nrf24l01.c */,
+				C21D933B1CBC24DF004F23FE /* nrf24l01.h */,
+				C21D933C1CBC24DF004F23FE /* options.h */,
+				C21D933D1CBC24DF004F23FE /* output.c */,
+				C21D933E1CBC24DF004F23FE /* output.h */,
+				C21D933F1CBC24DF004F23FE /* pilotcontrol.c */,
+				C21D93401CBC24DF004F23FE /* pilotcontrol.h */,
+				C21D93411CBC24DF004F23FE /* projectsettings.h */,
+				C21D93421CBC24DF004F23FE /* rx.c */,
+				C21D93431CBC24DF004F23FE /* rx.h */,
+				C21D93441CBC24DF004F23FE /* rx_v202.c */,
+				C21D93451CBC24DF004F23FE /* rx_x4.c */,
+				C21D93461CBC24DF004F23FE /* serial.c */,
+				C21D93471CBC24DF004F23FE /* serial.h */,
+				C21D93481CBC24DF004F23FE /* vectors.c */,
+				C21D93491CBC24DF004F23FE /* vectors.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C21D934A1CBC24ED004F23FE /* lib-Mini51 */ = {
+			isa = PBXGroup;
+			children = (
+				C21D934B1CBC24ED004F23FE /* CMSIS */,
+				C21D935B1CBC24ED004F23FE /* Device */,
+				C21D93671CBC24ED004F23FE /* hal */,
+				C21D93801CBC24ED004F23FE /* linker */,
+				C21D93831CBC24ED004F23FE /* startup_Mini51Series.c */,
+				C21D93841CBC24ED004F23FE /* startup_Mini51Series.s */,
+				C21D93851CBC24ED004F23FE /* StdDriver */,
+			);
+			path = "lib-Mini51";
+			sourceTree = "<group>";
+		};
+		C21D934B1CBC24ED004F23FE /* CMSIS */ = {
+			isa = PBXGroup;
+			children = (
+				C21D934C1CBC24ED004F23FE /* CMSIS END USER LICENCE AGREEMENT.pdf */,
+				C21D934D1CBC24ED004F23FE /* Include */,
+				C21D93591CBC24ED004F23FE /* index.html */,
+				C21D935A1CBC24ED004F23FE /* README.txt */,
+			);
+			path = CMSIS;
+			sourceTree = "<group>";
+		};
+		C21D934D1CBC24ED004F23FE /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				C21D934E1CBC24ED004F23FE /* arm_common_tables.h */,
+				C21D934F1CBC24ED004F23FE /* arm_math.h */,
+				C21D93501CBC24ED004F23FE /* core_cm0.h */,
+				C21D93511CBC24ED004F23FE /* core_cm0plus.h */,
+				C21D93521CBC24ED004F23FE /* core_cm3.h */,
+				C21D93531CBC24ED004F23FE /* core_cm4.h */,
+				C21D93541CBC24ED004F23FE /* core_cm4_simd.h */,
+				C21D93551CBC24ED004F23FE /* core_cmFunc.h */,
+				C21D93561CBC24ED004F23FE /* core_cmInstr.h */,
+				C21D93571CBC24ED004F23FE /* core_sc000.h */,
+				C21D93581CBC24ED004F23FE /* core_sc300.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		C21D935B1CBC24ED004F23FE /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				C21D935C1CBC24ED004F23FE /* Nuvoton */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		C21D935C1CBC24ED004F23FE /* Nuvoton */ = {
+			isa = PBXGroup;
+			children = (
+				C21D935D1CBC24ED004F23FE /* Mini51Series */,
+			);
+			path = Nuvoton;
+			sourceTree = "<group>";
+		};
+		C21D935D1CBC24ED004F23FE /* Mini51Series */ = {
+			isa = PBXGroup;
+			children = (
+				C21D935E1CBC24ED004F23FE /* Include */,
+				C21D93611CBC24ED004F23FE /* Source */,
+			);
+			path = Mini51Series;
+			sourceTree = "<group>";
+		};
+		C21D935E1CBC24ED004F23FE /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				C21D935F1CBC24ED004F23FE /* Mini51Series.h */,
+				C21D93601CBC24ED004F23FE /* system_Mini51Series.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		C21D93611CBC24ED004F23FE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C21D93621CBC24ED004F23FE /* ARM */,
+				C21D93641CBC24ED004F23FE /* IAR */,
+				C21D93661CBC24ED004F23FE /* system_Mini51Series.c */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C21D93621CBC24ED004F23FE /* ARM */ = {
+			isa = PBXGroup;
+			children = (
+				C21D93631CBC24ED004F23FE /* startup_Mini51Series.s */,
+			);
+			path = ARM;
+			sourceTree = "<group>";
+		};
+		C21D93641CBC24ED004F23FE /* IAR */ = {
+			isa = PBXGroup;
+			children = (
+				C21D93651CBC24ED004F23FE /* startup_Mini51Series.s */,
+			);
+			path = IAR;
+			sourceTree = "<group>";
+		};
+		C21D93671CBC24ED004F23FE /* hal */ = {
+			isa = PBXGroup;
+			children = (
+				C21D93681CBC24ED004F23FE /* drv_gpio.c */,
+				C21D93691CBC24ED004F23FE /* drv_gpio.h */,
+				C21D936A1CBC24ED004F23FE /* drv_hal.c */,
+				C21D936B1CBC24ED004F23FE /* drv_pwm.c */,
+				C21D936C1CBC24ED004F23FE /* drv_pwm.h */,
+				C21D936D1CBC24ED004F23FE /* drv_serial.c */,
+				C21D936E1CBC24ED004F23FE /* drv_serial.h */,
+				C21D936F1CBC24ED004F23FE /* hal.h */,
+				C21D93701CBC24ED004F23FE /* lib_adc.c */,
+				C21D93711CBC24ED004F23FE /* lib_adc.h */,
+				C21D93721CBC24ED004F23FE /* lib_digitalio.c */,
+				C21D93731CBC24ED004F23FE /* lib_digitalio.h */,
+				C21D93741CBC24ED004F23FE /* lib_fp.c */,
+				C21D93751CBC24ED004F23FE /* lib_fp.h */,
+				C21D93761CBC24ED004F23FE /* lib_i2c.c */,
+				C21D93771CBC24ED004F23FE /* lib_i2c.h */,
+				C21D93781CBC24ED004F23FE /* lib_serial.c */,
+				C21D93791CBC24ED004F23FE /* lib_serial.h */,
+				C21D937A1CBC24ED004F23FE /* lib_soft_3_wire_spi.c */,
+				C21D937B1CBC24ED004F23FE /* lib_soft_3_wire_spi.h */,
+				C21D937C1CBC24ED004F23FE /* lib_spi.c */,
+				C21D937D1CBC24ED004F23FE /* lib_spi.h */,
+				C21D937E1CBC24ED004F23FE /* lib_timers.c */,
+				C21D937F1CBC24ED004F23FE /* lib_timers.h */,
+			);
+			path = hal;
+			sourceTree = "<group>";
+		};
+		C21D93801CBC24ED004F23FE /* linker */ = {
+			isa = PBXGroup;
+			children = (
+				C21D93811CBC24ED004F23FE /* link.ld */,
+				C21D93821CBC24ED004F23FE /* memory.ld */,
+			);
+			path = linker;
+			sourceTree = "<group>";
+		};
+		C21D93851CBC24ED004F23FE /* StdDriver */ = {
+			isa = PBXGroup;
+			children = (
+				C21D93861CBC24ED004F23FE /* inc */,
+				C21D93921CBC24ED004F23FE /* src */,
+			);
+			path = StdDriver;
+			sourceTree = "<group>";
+		};
+		C21D93861CBC24ED004F23FE /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				C21D93871CBC24ED004F23FE /* adc.h */,
+				C21D93881CBC24ED004F23FE /* clk.h */,
+				C21D93891CBC24ED004F23FE /* fmc.h */,
+				C21D938A1CBC24ED004F23FE /* gpio.h */,
+				C21D938B1CBC24ED004F23FE /* i2c.h */,
+				C21D938C1CBC24ED004F23FE /* pwm.h */,
+				C21D938D1CBC24ED004F23FE /* spi.h */,
+				C21D938E1CBC24ED004F23FE /* sys.h */,
+				C21D938F1CBC24ED004F23FE /* timer.h */,
+				C21D93901CBC24ED004F23FE /* uart.h */,
+				C21D93911CBC24ED004F23FE /* wdt.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		C21D93921CBC24ED004F23FE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C21D93931CBC24ED004F23FE /* adc.c */,
+				C21D93941CBC24ED004F23FE /* clk.c */,
+				C21D93951CBC24ED004F23FE /* fmc.c */,
+				C21D93961CBC24ED004F23FE /* gpio.c */,
+				C21D93971CBC24ED004F23FE /* i2c.c */,
+				C21D93981CBC24ED004F23FE /* pwm.c */,
+				C21D93991CBC24ED004F23FE /* retarget.c */,
+				C21D939A1CBC24ED004F23FE /* spi.c */,
+				C21D939B1CBC24ED004F23FE /* sys.c */,
+				C21D939C1CBC24ED004F23FE /* timer.c */,
+				C21D939D1CBC24ED004F23FE /* uart.c */,
+				C21D939E1CBC24ED004F23FE /* wdt.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C21D92AD1CBC23E2004F23FE /* All */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "all -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D92F41CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "All" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = All;
+			passBuildSettingsInEnvironment = 1;
+			productName = All;
+		};
+		C21D92AE1CBC23E2004F23FE /* Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "build -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D92F71CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Build" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = Build;
+		};
+		C21D92AF1CBC23E2004F23FE /* Document */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "document -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D92FA1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Document" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Document;
+			passBuildSettingsInEnvironment = 1;
+			productName = Document;
+		};
+		C21D92B01CBC23E2004F23FE /* Distribute */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "distribute -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D92FD1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Distribute" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Distribute;
+			passBuildSettingsInEnvironment = 1;
+			productName = Distribute;
+		};
+		C21D92B11CBC23E2004F23FE /* Boards */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "boards -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D93001CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Boards" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Boards;
+			passBuildSettingsInEnvironment = 1;
+			productName = Boards;
+		};
+		C21D92B21CBC23E2004F23FE /* Serial */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "serial -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D93031CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Serial" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Serial;
+			passBuildSettingsInEnvironment = 1;
+			productName = Serial;
+		};
+		C21D92B31CBC23E2004F23FE /* Upload */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "upload -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D93061CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Upload" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Upload;
+			passBuildSettingsInEnvironment = 1;
+			productName = Upload;
+		};
+		C21D92B41CBC23E2004F23FE /* Clean */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "clean -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D93091CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Clean" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Clean;
+			passBuildSettingsInEnvironment = 1;
+			productName = Clean;
+		};
+		C21D92B51CBC23E2004F23FE /* Fast */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "fast -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D930C1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Fast" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Fast;
+			passBuildSettingsInEnvironment = 1;
+			productName = Fast;
+		};
+		C21D92B61CBC23E2004F23FE /* Make */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "make -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D930F1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Make" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Make;
+			passBuildSettingsInEnvironment = 1;
+			productName = Make;
+		};
+		C21D92B71CBC23E2004F23FE /* Debug */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "debug -C \"$(PROJECT)\"";
+			buildConfigurationList = C21D93121CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Debug" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			dependencies = (
+			);
+			name = Debug;
+			passBuildSettingsInEnvironment = 1;
+			productName = Debug;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C21D92B91CBC23E2004F23FE /* Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21D93151CBC23E3004F23FE /* Build configuration list for PBXNativeTarget "Index" */;
+			buildPhases = (
+				C21D92B81CBC23E2004F23FE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Index;
+			productName = Index;
+			productReference = C21D92BA1CBC23E2004F23FE /* Index */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C21D92A91CBC23E2004F23FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = robz;
+				TargetAttributes = {
+					C21D92AD1CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92AE1CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92AF1CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B01CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B11CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B21CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B31CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B41CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B51CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B61CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B71CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C21D92B91CBC23E2004F23FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C21D92AC1CBC23E2004F23FE /* Build configuration list for PBXProject "symawii" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C21D92A81CBC23E2004F23FE;
+			productRefGroup = C21D92BB1CBC23E2004F23FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21D92AD1CBC23E2004F23FE /* All */,
+				C21D92AE1CBC23E2004F23FE /* Build */,
+				C21D92AF1CBC23E2004F23FE /* Document */,
+				C21D92B01CBC23E2004F23FE /* Distribute */,
+				C21D92B11CBC23E2004F23FE /* Boards */,
+				C21D92B21CBC23E2004F23FE /* Serial */,
+				C21D92B31CBC23E2004F23FE /* Upload */,
+				C21D92B41CBC23E2004F23FE /* Clean */,
+				C21D92B51CBC23E2004F23FE /* Fast */,
+				C21D92B61CBC23E2004F23FE /* Make */,
+				C21D92B71CBC23E2004F23FE /* Debug */,
+				C21D92B91CBC23E2004F23FE /* Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C21D92B81CBC23E2004F23FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21D940F1CBC260A004F23FE /* symawii.h in Sources */,
+				C21D94101CBC260A004F23FE /* symawii.c in Sources */,
+				C21D93DE1CBC251F004F23FE /* system_Mini51Series.c in Sources */,
+				C21D93DF1CBC251F004F23FE /* drv_gpio.c in Sources */,
+				C21D93E01CBC251F004F23FE /* drv_hal.c in Sources */,
+				C21D93E11CBC251F004F23FE /* drv_pwm.c in Sources */,
+				C21D93E21CBC251F004F23FE /* drv_serial.c in Sources */,
+				C21D93E31CBC251F004F23FE /* lib_adc.c in Sources */,
+				C21D93E41CBC251F004F23FE /* lib_digitalio.c in Sources */,
+				C21D93E51CBC251F004F23FE /* lib_fp.c in Sources */,
+				C21D93E61CBC251F004F23FE /* lib_i2c.c in Sources */,
+				C21D93E71CBC251F004F23FE /* lib_serial.c in Sources */,
+				C21D93E81CBC251F004F23FE /* lib_soft_3_wire_spi.c in Sources */,
+				C21D93E91CBC251F004F23FE /* lib_spi.c in Sources */,
+				C21D93EA1CBC251F004F23FE /* lib_timers.c in Sources */,
+				C21D93EB1CBC251F004F23FE /* startup_Mini51Series.c in Sources */,
+				C21D93EC1CBC251F004F23FE /* adc.c in Sources */,
+				C21D93ED1CBC251F004F23FE /* clk.c in Sources */,
+				C21D93EE1CBC251F004F23FE /* fmc.c in Sources */,
+				C21D93EF1CBC251F004F23FE /* gpio.c in Sources */,
+				C21D93F01CBC251F004F23FE /* i2c.c in Sources */,
+				C21D93F11CBC251F004F23FE /* pwm.c in Sources */,
+				C21D93F21CBC251F004F23FE /* retarget.c in Sources */,
+				C21D93F31CBC251F004F23FE /* spi.c in Sources */,
+				C21D93F41CBC251F004F23FE /* sys.c in Sources */,
+				C21D93F51CBC251F004F23FE /* timer.c in Sources */,
+				C21D93F61CBC251F004F23FE /* uart.c in Sources */,
+				C21D93F71CBC251F004F23FE /* wdt.c in Sources */,
+				C21D93F81CBC251F004F23FE /* a7105.c in Sources */,
+				C21D93F91CBC251F004F23FE /* accelerometer.c in Sources */,
+				C21D93FA1CBC251F004F23FE /* autotune.c in Sources */,
+				C21D93FB1CBC251F004F23FE /* baro.c in Sources */,
+				C21D93FD1CBC251F004F23FE /* checkboxes.c in Sources */,
+				C21D93FE1CBC251F004F23FE /* compass.c in Sources */,
+				C21D93FF1CBC251F004F23FE /* eeprom.c in Sources */,
+				C21D94001CBC251F004F23FE /* gps.c in Sources */,
+				C21D94011CBC251F004F23FE /* gyro.c in Sources */,
+				C21D94021CBC251F004F23FE /* imu.c in Sources */,
+				C21D94031CBC251F004F23FE /* leds.c in Sources */,
+				C21D94041CBC251F004F23FE /* navigation.c in Sources */,
+				C21D94051CBC251F004F23FE /* nrf24l01.c in Sources */,
+				C21D94061CBC251F004F23FE /* output.c in Sources */,
+				C21D94071CBC251F004F23FE /* pilotcontrol.c in Sources */,
+				C21D94081CBC251F004F23FE /* rx.c in Sources */,
+				C21D94091CBC251F004F23FE /* rx_v202.c in Sources */,
+				C21D940A1CBC251F004F23FE /* rx_x4.c in Sources */,
+				C21D940B1CBC251F004F23FE /* serial.c in Sources */,
+				C21D940C1CBC251F004F23FE /* vectors.c in Sources */,
+				C21D939F1CBC250F004F23FE /* arm_common_tables.h in Sources */,
+				C21D93A01CBC250F004F23FE /* arm_math.h in Sources */,
+				C21D93A11CBC250F004F23FE /* core_cm0.h in Sources */,
+				C21D93A21CBC250F004F23FE /* core_cm0plus.h in Sources */,
+				C21D93A31CBC250F004F23FE /* core_cm3.h in Sources */,
+				C21D93A41CBC250F004F23FE /* core_cm4.h in Sources */,
+				C21D93A51CBC250F004F23FE /* core_cm4_simd.h in Sources */,
+				C21D93A61CBC250F004F23FE /* core_cmFunc.h in Sources */,
+				C21D93A71CBC250F004F23FE /* core_cmInstr.h in Sources */,
+				C21D93A81CBC250F004F23FE /* core_sc000.h in Sources */,
+				C21D93A91CBC250F004F23FE /* core_sc300.h in Sources */,
+				C21D93AA1CBC250F004F23FE /* Mini51Series.h in Sources */,
+				C21D93AB1CBC250F004F23FE /* system_Mini51Series.h in Sources */,
+				C21D93AC1CBC250F004F23FE /* drv_gpio.h in Sources */,
+				C21D93AD1CBC250F004F23FE /* drv_pwm.h in Sources */,
+				C21D93AE1CBC250F004F23FE /* drv_serial.h in Sources */,
+				C21D93AF1CBC250F004F23FE /* hal.h in Sources */,
+				C21D93B01CBC250F004F23FE /* lib_adc.h in Sources */,
+				C21D93B11CBC250F004F23FE /* lib_digitalio.h in Sources */,
+				C21D93B21CBC250F004F23FE /* lib_fp.h in Sources */,
+				C21D93B31CBC250F004F23FE /* lib_i2c.h in Sources */,
+				C21D93B41CBC250F004F23FE /* lib_serial.h in Sources */,
+				C21D93B51CBC250F004F23FE /* lib_soft_3_wire_spi.h in Sources */,
+				C21D93B61CBC250F004F23FE /* lib_spi.h in Sources */,
+				C21D93B71CBC250F004F23FE /* lib_timers.h in Sources */,
+				C21D93B81CBC250F004F23FE /* adc.h in Sources */,
+				C21D93B91CBC250F004F23FE /* clk.h in Sources */,
+				C21D93BA1CBC250F004F23FE /* fmc.h in Sources */,
+				C21D93BB1CBC250F004F23FE /* gpio.h in Sources */,
+				C21D93BC1CBC250F004F23FE /* i2c.h in Sources */,
+				C21D93BD1CBC250F004F23FE /* pwm.h in Sources */,
+				C21D93BE1CBC250F004F23FE /* spi.h in Sources */,
+				C21D93BF1CBC250F004F23FE /* sys.h in Sources */,
+				C21D93C01CBC250F004F23FE /* timer.h in Sources */,
+				C21D93C11CBC250F004F23FE /* uart.h in Sources */,
+				C21D93C21CBC250F004F23FE /* wdt.h in Sources */,
+				C21D93C31CBC250F004F23FE /* a7105.h in Sources */,
+				C21D93C41CBC250F004F23FE /* accelerometer.h in Sources */,
+				C21D93C51CBC250F004F23FE /* autotune.h in Sources */,
+				C21D93C61CBC250F004F23FE /* baro.h in Sources */,
+				C21D93C81CBC250F004F23FE /* checkboxes.h in Sources */,
+				C21D93C91CBC250F004F23FE /* compass.h in Sources */,
+				C21D93CA1CBC250F004F23FE /* config.h in Sources */,
+				C21D93CB1CBC250F004F23FE /* config_JD385.h in Sources */,
+				C21D93CC1CBC250F004F23FE /* config_STM32.h in Sources */,
+				C21D93CD1CBC250F004F23FE /* config_V202.h in Sources */,
+				C21D93CE1CBC250F004F23FE /* config_X4.h in Sources */,
+				C21D93CF1CBC250F004F23FE /* defs.h in Sources */,
+				C21D93D01CBC250F004F23FE /* eeprom.h in Sources */,
+				C21D93D11CBC250F004F23FE /* gps.h in Sources */,
+				C21D93D21CBC250F004F23FE /* gyro.h in Sources */,
+				C21D93D31CBC250F004F23FE /* imu.h in Sources */,
+				C21D93D41CBC250F004F23FE /* leds.h in Sources */,
+				C21D93D51CBC250F004F23FE /* navigation.h in Sources */,
+				C21D93D61CBC250F004F23FE /* nrf24l01.h in Sources */,
+				C21D93D71CBC250F004F23FE /* options.h in Sources */,
+				C21D93D81CBC250F004F23FE /* output.h in Sources */,
+				C21D93D91CBC250F004F23FE /* pilotcontrol.h in Sources */,
+				C21D93DA1CBC250F004F23FE /* projectsettings.h in Sources */,
+				C21D93DB1CBC250F004F23FE /* rx.h in Sources */,
+				C21D93DC1CBC250F004F23FE /* serial.h in Sources */,
+				C21D93DD1CBC250F004F23FE /* vectors.h in Sources */,
+				C21D92C01CBC23E2004F23FE /* Makefile in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C21D92F21CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21D92D11CBC23E2004F23FE /* My Board (mbed).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PATH = "$(PATH):$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKETCHBOOK_DIR = "";
+				UPDATE_POLICY = 2;
+			};
+			name = Debug;
+		};
+		C21D92F31CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PATH = "$(PATH):$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKETCHBOOK_DIR = "";
+				UPDATE_POLICY = 2;
+			};
+			name = Release;
+		};
+		C21D92F51CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C21D92F61CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C21D92F81CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D92F91CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D92FB1CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D92FC1CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D92FE1CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D92FF1CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D93011CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D93021CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D93041CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D93051CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D93071CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D93081CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D930A1CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D930B1CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D930D1CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D930E1CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D93101CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D93111CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D93131CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D93141CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C21D93161CBC23E3004F23FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C21D93171CBC23E3004F23FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21D92AC1CBC23E2004F23FE /* Build configuration list for PBXProject "symawii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D92F21CBC23E3004F23FE /* Debug */,
+				C21D92F31CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21D92F41CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D92F51CBC23E3004F23FE /* Debug */,
+				C21D92F61CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D92F71CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D92F81CBC23E3004F23FE /* Debug */,
+				C21D92F91CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D92FA1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Document" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D92FB1CBC23E3004F23FE /* Debug */,
+				C21D92FC1CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D92FD1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Distribute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D92FE1CBC23E3004F23FE /* Debug */,
+				C21D92FF1CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D93001CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Boards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D93011CBC23E3004F23FE /* Debug */,
+				C21D93021CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D93031CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Serial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D93041CBC23E3004F23FE /* Debug */,
+				C21D93051CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D93061CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Upload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D93071CBC23E3004F23FE /* Debug */,
+				C21D93081CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D93091CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Clean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D930A1CBC23E3004F23FE /* Debug */,
+				C21D930B1CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D930C1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Fast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D930D1CBC23E3004F23FE /* Debug */,
+				C21D930E1CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D930F1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Make" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D93101CBC23E3004F23FE /* Debug */,
+				C21D93111CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D93121CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D93131CBC23E3004F23FE /* Debug */,
+				C21D93141CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C21D93151CBC23E3004F23FE /* Build configuration list for PBXNativeTarget "Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D93161CBC23E3004F23FE /* Debug */,
+				C21D93171CBC23E3004F23FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C21D92A91CBC23E2004F23FE /* Project object */;
+}

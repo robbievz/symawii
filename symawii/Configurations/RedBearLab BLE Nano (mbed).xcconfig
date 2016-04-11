@@ -1,0 +1,98 @@
+//
+//  RedBearLab BLE Nano (mbed).xcconfig
+//  Board configuration file
+//  ----------------------------------
+//  Developed with embedXcode
+//
+//  Part of embedXcode
+//  Embedded Computing on Xcode
+//
+//  Created by  Robert Biehl on Oct 11, 2014
+//  Licence     All rigths reserved
+//
+//  Maintained by Rei Vilo on Sep 20, 2014
+//  Copyright   (c) 2010-2016 http://embedxcode.weebly.com
+//  Licence     All rigths reserved
+//
+// Last update: Nov 16, 2015 release 4.0.4
+
+// Required environment
+// . service s110_nrf51822_7_1_0
+// . mbed 92
+// . startup file .s
+
+// Board identifier
+// See Boards.txt for <tag>.name=Arduino Uno (16 MHz)
+//
+BOARD_TAG  = RBLAB_BLENANO_mbed
+
+// Port (optionnal)
+// most common are /dev/tty.usbserial*, /dev/tty.usbmodem* or /dev/tty.uart*
+// Note: if /dev/tty.usbserial* doesn't work, try /dev/tty.usbmodem*
+//
+BOARD_PORT = /dev/tty.usbmodem*
+
+// References for Xcode code-sense
+// See Boards.txt for <tag>.build.mcu=<GCC_PREPROCESSOR_DEFINITIONS>
+//
+GCC_PREPROCESSOR_DEFINITIONS = RBLAB_BLENANO MBED
+
+// Specify the full path and name of the application
+// with /Contents/Resources/Java/** after
+//
+HEADER_SEARCH_PATHS = ~/Library/embedXcode/mbed/**
+
+// Board volume name
+// volume name used for upload by copying binary
+//
+BOARD_VOLUME = /Volumes/MBED
+
+
+// ---- Additional definitions for mbed-enabled board
+//
+BOARD_NAME      = RedBearLab BLE Nano (mbed)
+
+MCU             = cortex-m0
+FPU_OPTIONS     =
+BUILD_OPTIONS   = __CORTEX_M0 NO_EXCEPTIONS
+
+LDSCRIPT        = TARGET_MCU_NRF51_16K_S110/NRF51822.ld
+//LDSCRIPT        = TARGET_MCU_NORDIC_16K/NRF51822.ld
+STARTUP         = startup_NRF51822.S
+//SYSTEM         = system_stm32f4xx
+//VARIANT        = TARGET_STM32F4XX
+
+TOOLCHAIN       = TOOLCHAIN_GCC_ARM
+//SOFTDEVICE      = s130_nrf51822_1_0_0
+SOFTDEVICE      = s110_nrf51822_8_0_0
+//SOFTDEVICE      = s110_nrf51822_7_1_0
+
+// Maximum Flash and RAM sizes in bytes
+//
+MAX_FLASH_SIZE  = 262144
+MAX_RAM_SIZE    = 16384
+
+// Paths in libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z
+//                                    /LEVEL1          /LEVEL2     /LEVEL3
+LEVEL1          = TARGET_NORDIC
+LEVEL2          = TARGET_MCU_NRF51822
+LEVEL3          = TARGET_RBLAB_BLENANO
+
+// Paths in build/mbed/TARGET_KL25Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z
+//                    /LEVEL0
+LEVEL0          = TARGET_RBLAB_BLENANO
+
+// Additional options
+MORE_OPTIONS            = TARGET_NORDIC TARGET_MCU_NRF51822 TARGET_RBLAB_BLENANO TOOLCHAIN_GCC TARGET_MCU_NRF51 TARGET_MCU_NRF51_16K TARGET_MCU_NRF51_16K_S130 TARGET_MCU_NRF51822 NRF51 TARGET_CORTEX_M TARGET_M0 TARGET_MCU_NORDIC_16K
+MORE_TARGET_INCLUDE     = TARGET_M0
+MORE_TOOLCHAIN_INCLUDE  = TOOLCHAIN_GCC
+
+// FAST=pre-compiled or FULL make option
+MBED_MAKE_OPTION        = FAST
+
+// ---- End of additional definitions
+
+
+
+
+

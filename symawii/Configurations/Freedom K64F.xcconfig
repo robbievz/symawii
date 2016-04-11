@@ -1,0 +1,86 @@
+//
+//  Freedom K64F.xcconfig
+//  Board config file
+//  ----------------------------------
+//  Developed with embedXcode
+//
+//  Part of embedXcode
+//  Embedded Computing on Xcode
+//
+//  Created by 	Rei Vilo on Nov 14, 2015
+//  Copyright   (c) 2010-2016 http://embedxcode.weebly.com
+//  Licence		All rights reserved
+//
+// Last update: Nov 16, 2015 release 4.0.4
+
+// Board identifier
+//
+BOARD_TAG       = K64F
+
+// Port (optionnal)
+// most common are /dev/tty.usbserial*, /dev/tty.usbmodem* or /dev/tty.uart*
+//
+BOARD_PORT = /dev/tty.usbmodem*
+
+// References for Xcode code-sense
+//
+GCC_PREPROCESSOR_DEFINITIONS = K64F MBED
+
+// Specify the full path and name of the application
+// with ** after
+//
+HEADER_SEARCH_PATHS = ~/Library/embedXcode/mbed/**
+
+// Board volume name
+// volume name used for upload by copying binary
+//
+BOARD_VOLUME = /Volumes/MBED
+
+
+// ---- Additional definitions for mbed-enabled board
+//
+BOARD_NAME      = Freescale Freedom K64F
+
+MCU             = cortex-m4
+FPU_OPTIONS     = -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+BUILD_OPTIONS   = __CORTEX_M4 __FPU_PRESENT NO_EXCEPTIONS
+
+LDSCRIPT        = K64FN1M0xxx12.ld
+STARTUP         = startup_MK64F12.S
+//SYSTEM         = system_stm32f4xx
+//VARIANT        = TARGET_STM32F4XX
+
+TOOLCHAIN       = TOOLCHAIN_GCC_ARM
+
+// Maximum Flash and RAM sizes in bytes
+//
+MAX_FLASH_SIZE  = 1048576
+MAX_RAM_SIZE    = 262144
+
+// Paths in libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z
+//                                    /LEVEL1          /LEVEL2     /LEVEL3
+// libraries/mbed/targets/hal/TARGET_Freescale/TARGET_KPSDK_MCUS/TARGET_MCU_K64F/TARGET_FRDM
+LEVEL1          = TARGET_Freescale
+LEVEL2          = TARGET_KPSDK_MCUS
+LEVEL3          = TARGET_KPSDK_CODE
+LEVEL4          = TARGET_MCU_K64F
+LEVEL5          = TARGET_FRDM
+
+// Paths in build/mbed/TARGET_KL25Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL25Z
+//                    /LEVEL0
+LEVEL0          = TARGET_MCU_K64F
+
+// Additional options for libraries
+MORE_OPTIONS            = __CORTEX_M4 __FPU_PRESENT=1 __MBED__=1 ARM_MATH_CM4 CPU_MK64FN1M0VMD12 FSL_RTOS_MBED  TARGET_CORTEX_M TARGET_FF_ARDUINO TARGET_FRDM TARGET_Freescale TARGET_K64F TARGET_KPSDK_CODE TARGET_KPSDK_MCUS TARGET_M4 TARGET_MCU_K64F TOOLCHAIN_GCC TOOLCHAIN_GCC_ARM
+MORE_TARGET_INCLUDE     = TARGET_M4
+MORE_TOOLCHAIN_INCLUDE  = TOOLCHAIN_GCC
+POST_RESET_MESSAGE      = 1
+
+// FAST=pre-compiled or FULL make option
+MBED_MAKE_OPTION        = FAST
+
+// ---- End of additional definitions
+
+
+
+

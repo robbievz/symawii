@@ -1,0 +1,34 @@
+Nuvoton Mini54ZAN / HBS002 in Hubsan Q4 / Estes Proto-X
+ 1 - ACMP0_P, AIN5, P1.5 	        -
+ 2 - /RESET 			        - "R" pad (?)
+ 3 - ACMP1_N, AIN6, P3.0	        -
+ 4 - P5.4                               -
+ 5 - ACMP1_P, AIN7, P3.1                -
+ 6 - ACMP1_P, T0EX, STADC, INT0, P3.2   - 
+ 7 - ACMP1_P, SDA, T0, P3.4             - sensors SDA
+ 8 - ACMP1_P, SCL, T1, P3.5             - sensors SCL
+ 9 - CKO, T1EX, ACMP0_O, P3.6           -
+10 - XTAL2, P5.1                        - LED FL
+11 - XTAL1, P5.0                        - LED RL
+12 - VSS                                - ground
+13 - INT1, P5.2                         -
+14 - PWM0, P2.2                         - MOT FL
+15 - PWM1, P2.3                         - MOT RL
+16 - PWM2, P2.4                         - MOT RR
+17 - PWM3, P2.5                         - MOT FR
+18 - PWM4, ACMP1_O, P2.6                - LED RR
+19 - ICE_CLK, P4.6                      - SWD "C" pad
+20 - ICE_DAT, P4.7                      - SWD "D" pad
+21 - SPICLK, P0.7                       -
+22 - MISO, P0.6                         -
+23 - MOSI, P0.5                         -
+24 - SPISS, PWM5, P0.4                  - LED FR
+25 - SPISS, RX, RTSn, P0.1              - MPU3050 gyro p12 INT
+26 - TX, CTSn, P0.0                     - A7105 P16 GIO1
+27 - AIN0, P5.3                         - A7105 p14 SDIO
+28 - VDD                                - 3.3V from regulator
+29 - ACMP0_P, AIN1, P1.0                - A7105 p12 SCK
+30 - ACMP0_P, RX, AIN2, P1.2            - A7105 p11 SCS 
+31 - ACMP0_P, TX, AIN3, P1.3            - 3210AK accel p5 INTN
+32 - ACMP0_N, AIN4, P1.4                - VBAT divider gnd-3.8K-AIN4-4.7-VBAT
+33 - VSS (center pad)                   - ground

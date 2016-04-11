@@ -1,0 +1,82 @@
+//
+//  Nucleo F401RE.xcconfig
+//  Board config file
+//  ----------------------------------
+//  Developed with embedXcode
+//
+//  Part of embedXcode
+//  Embedded Computing on Xcode
+//
+//  Created by 	Rei Vilo on Sep 20, 2014
+//  Copyright   (c) 2010-2016 http://embedxcode.weebly.com
+//  Licence		All rights reserved
+//
+// Last update: Jul 09, 2015 release 299
+
+// Board identifier
+//
+BOARD_TAG       = NUCLEO_F072RB
+
+// Port (optionnal)
+// most common are /dev/tty.usbserial*, /dev/tty.usbmodem* or /dev/tty.uart*
+//
+BOARD_PORT      = /dev/tty.usbmodem*
+
+// References for Xcode code-sense
+//
+GCC_PREPROCESSOR_DEFINITIONS = STM32F072xB MBED NUCLEO_F072RB
+
+// Specify the full path and name of the application
+// with /** after
+//
+HEADER_SEARCH_PATHS = ~/Library/embedXcode/mbed/**
+
+// Board volume name
+// volume name used for upload by copying binary
+//
+BOARD_VOLUME = /Volumes/NUCLEO
+
+
+// ---- Additional definitions for mbed-enabled board
+//
+BOARD_NAME      = ST Nucleo F072RB
+
+MCU             = cortex-m0
+FPU_OPTIONS     =
+BUILD_OPTIONS   = __CORTEX_M0
+
+LDSCRIPT        = STM32F072XB.ld
+STARTUP         = startup_stm32f072xb.S
+//SYSTEM         = system_stm32f4xx
+//VARIANT        = TARGET_STM32F4XX
+
+TOOLCHAIN       = TOOLCHAIN_GCC_ARM
+UPLOADER        = stlink
+
+// Maximum Flash and RAM sizes in bytes
+MAX_FLASH_SIZE  = 131072
+MAX_RAM_SIZE    = 14336
+
+// Paths in libraries/mbed/targets/hal/TARGET_STM/TARGET_NUCLEO_F401RE
+//                                    /LEVEL1    /LEVEL2
+LEVEL1          = TARGET_STM
+LEVEL2          = TARGET_STM32F0
+LEVEL3          = TARGET_NUCLEO_F072RB
+
+// Paths in build/mbed/TARGET_NUCLEO_F401RE/TARGET_STM/TARGET_NUCLEO_F401RE
+//                    /LEVEL0
+LEVEL0          = TARGET_NUCLEO_F072RB
+
+// Additional options for libraries
+MORE_OPTIONS            = TARGET_STM32F072RB TOOLCHAIN_GCC
+MORE_TARGET_INCLUDE     = TARGET_M0
+MORE_TOOLCHAIN_INCLUDE  = TOOLCHAIN_GCC
+
+// FAST=pre-compiled or FULL make option
+MBED_MAKE_OPTION        = FAST
+
+// ---- End of additional definitions
+
+
+
+
