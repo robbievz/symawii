@@ -79,9 +79,6 @@ m
 #include "autotune.h"
 #include "leds.h"
 
-
-//Lets add a test
-
 // library headers
 #include "hal.h"
 #include "lib_timers.h"
