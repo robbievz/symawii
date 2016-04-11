@@ -1,4 +1,4 @@
-Bradwii for JXD JD385, WLToys V202, Hubsan H107L and clones
+Symawii for Syma X5C
 =======
 
 This is a port of bradwii to another ARM architecture, Nuvoton Mini51 which is represented
@@ -83,3 +83,4 @@ Credits
  * The Mini54ZAN ARM port to V202/JD385 was done by Victor: https://github.com/victzh/bradwii
  * The Hubsan X4 H107L port was done by Goebish: https://github.com/goebish/bradwii-X4
  * Extra work on the H107L port by TheLastMutt: https://github.com/TheLastMutt/bradwii-x4-gcc
+ * Robbievz for the stripped-down version customized for the Syma X5C 
