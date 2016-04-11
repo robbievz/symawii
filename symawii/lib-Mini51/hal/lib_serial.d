@@ -11,7 +11,7 @@ lib-Mini51/hal/lib_serial.o: lib-Mini51/hal/lib_serial.c \
  lib-Mini51/StdDriver/inc/pwm.h lib-Mini51/StdDriver/inc/spi.h \
  lib-Mini51/StdDriver/inc/timer.h lib-Mini51/StdDriver/inc/uart.h \
  lib-Mini51/StdDriver/inc/wdt.h lib-Mini51/hal/lib_serial.h \
- src/projectsettings.h src/defs.h src/config.h src/config_X4.h \
+ src/projectsettings.h src/defs.h src/config.h src/config_SymaX5.h \
  src/options.h lib-Mini51/hal/lib_digitalio.h src/output.h \
  lib-Mini51/hal/lib_fp.h lib-Mini51/hal/drv_serial.h
 
@@ -57,7 +57,7 @@ src/defs.h:
 
 src/config.h:
 
-src/config_X4.h:
+src/config_SymaX5.h:
 
 src/options.h:
 

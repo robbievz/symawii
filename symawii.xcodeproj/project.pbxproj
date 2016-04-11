@@ -52,9 +52,6 @@
 		C21D93C91CBC250F004F23FE /* compass.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93271CBC24DF004F23FE /* compass.h */; };
 		C21D93CA1CBC250F004F23FE /* config.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93281CBC24DF004F23FE /* config.h */; };
 		C21D93CB1CBC250F004F23FE /* config_JD385.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93291CBC24DF004F23FE /* config_JD385.h */; };
-		C21D93CC1CBC250F004F23FE /* config_STM32.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932A1CBC24DF004F23FE /* config_STM32.h */; };
-		C21D93CD1CBC250F004F23FE /* config_V202.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932B1CBC24DF004F23FE /* config_V202.h */; };
-		C21D93CE1CBC250F004F23FE /* config_X4.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932C1CBC24DF004F23FE /* config_X4.h */; };
 		C21D93CF1CBC250F004F23FE /* defs.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932D1CBC24DF004F23FE /* defs.h */; };
 		C21D93D01CBC250F004F23FE /* eeprom.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D932F1CBC24DF004F23FE /* eeprom.h */; };
 		C21D93D11CBC250F004F23FE /* gps.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D93311CBC24DF004F23FE /* gps.h */; };
@@ -113,7 +110,6 @@
 		C21D94071CBC251F004F23FE /* pilotcontrol.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D933F1CBC24DF004F23FE /* pilotcontrol.c */; };
 		C21D94081CBC251F004F23FE /* rx.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93421CBC24DF004F23FE /* rx.c */; };
 		C21D94091CBC251F004F23FE /* rx_v202.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93441CBC24DF004F23FE /* rx_v202.c */; };
-		C21D940A1CBC251F004F23FE /* rx_x4.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93451CBC24DF004F23FE /* rx_x4.c */; };
 		C21D940B1CBC251F004F23FE /* serial.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93461CBC24DF004F23FE /* serial.c */; };
 		C21D940C1CBC251F004F23FE /* vectors.c in Sources */ = {isa = PBXBuildFile; fileRef = C21D93481CBC24DF004F23FE /* vectors.c */; };
 		C21D940F1CBC260A004F23FE /* symawii.h in Sources */ = {isa = PBXBuildFile; fileRef = C21D940D1CBC25D1004F23FE /* symawii.h */; };
@@ -181,9 +177,6 @@
 		C21D93271CBC24DF004F23FE /* compass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compass.h; sourceTree = "<group>"; };
 		C21D93281CBC24DF004F23FE /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		C21D93291CBC24DF004F23FE /* config_JD385.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_JD385.h; sourceTree = "<group>"; };
-		C21D932A1CBC24DF004F23FE /* config_STM32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_STM32.h; sourceTree = "<group>"; };
-		C21D932B1CBC24DF004F23FE /* config_V202.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_V202.h; sourceTree = "<group>"; };
-		C21D932C1CBC24DF004F23FE /* config_X4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_X4.h; sourceTree = "<group>"; };
 		C21D932D1CBC24DF004F23FE /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
 		C21D932E1CBC24DF004F23FE /* eeprom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eeprom.c; sourceTree = "<group>"; };
 		C21D932F1CBC24DF004F23FE /* eeprom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eeprom.h; sourceTree = "<group>"; };
@@ -208,7 +201,6 @@
 		C21D93421CBC24DF004F23FE /* rx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rx.c; sourceTree = "<group>"; };
 		C21D93431CBC24DF004F23FE /* rx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rx.h; sourceTree = "<group>"; };
 		C21D93441CBC24DF004F23FE /* rx_v202.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rx_v202.c; sourceTree = "<group>"; };
-		C21D93451CBC24DF004F23FE /* rx_x4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rx_x4.c; sourceTree = "<group>"; };
 		C21D93461CBC24DF004F23FE /* serial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = serial.c; sourceTree = "<group>"; };
 		C21D93471CBC24DF004F23FE /* serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serial.h; sourceTree = "<group>"; };
 		C21D93481CBC24DF004F23FE /* vectors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vectors.c; sourceTree = "<group>"; };
@@ -285,6 +277,7 @@
 		C21D939E1CBC24ED004F23FE /* wdt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wdt.c; sourceTree = "<group>"; };
 		C21D940D1CBC25D1004F23FE /* symawii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symawii.h; sourceTree = "<group>"; };
 		C21D940E1CBC25D1004F23FE /* symawii.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symawii.c; sourceTree = "<group>"; };
+		C21D94F11CBC4375004F23FE /* config_SymaX5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config_SymaX5.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -409,9 +402,6 @@
 				C21D93271CBC24DF004F23FE /* compass.h */,
 				C21D93281CBC24DF004F23FE /* config.h */,
 				C21D93291CBC24DF004F23FE /* config_JD385.h */,
-				C21D932A1CBC24DF004F23FE /* config_STM32.h */,
-				C21D932B1CBC24DF004F23FE /* config_V202.h */,
-				C21D932C1CBC24DF004F23FE /* config_X4.h */,
 				C21D932D1CBC24DF004F23FE /* defs.h */,
 				C21D932E1CBC24DF004F23FE /* eeprom.c */,
 				C21D932F1CBC24DF004F23FE /* eeprom.h */,
@@ -436,11 +426,11 @@
 				C21D93421CBC24DF004F23FE /* rx.c */,
 				C21D93431CBC24DF004F23FE /* rx.h */,
 				C21D93441CBC24DF004F23FE /* rx_v202.c */,
-				C21D93451CBC24DF004F23FE /* rx_x4.c */,
 				C21D93461CBC24DF004F23FE /* serial.c */,
 				C21D93471CBC24DF004F23FE /* serial.h */,
 				C21D93481CBC24DF004F23FE /* vectors.c */,
 				C21D93491CBC24DF004F23FE /* vectors.h */,
+				C21D94F11CBC4375004F23FE /* config_SymaX5.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -924,7 +914,6 @@
 				C21D94071CBC251F004F23FE /* pilotcontrol.c in Sources */,
 				C21D94081CBC251F004F23FE /* rx.c in Sources */,
 				C21D94091CBC251F004F23FE /* rx_v202.c in Sources */,
-				C21D940A1CBC251F004F23FE /* rx_x4.c in Sources */,
 				C21D940B1CBC251F004F23FE /* serial.c in Sources */,
 				C21D940C1CBC251F004F23FE /* vectors.c in Sources */,
 				C21D939F1CBC250F004F23FE /* arm_common_tables.h in Sources */,
@@ -971,9 +960,6 @@
 				C21D93C91CBC250F004F23FE /* compass.h in Sources */,
 				C21D93CA1CBC250F004F23FE /* config.h in Sources */,
 				C21D93CB1CBC250F004F23FE /* config_JD385.h in Sources */,
-				C21D93CC1CBC250F004F23FE /* config_STM32.h in Sources */,
-				C21D93CD1CBC250F004F23FE /* config_V202.h in Sources */,
-				C21D93CE1CBC250F004F23FE /* config_X4.h in Sources */,
 				C21D93CF1CBC250F004F23FE /* defs.h in Sources */,
 				C21D93D01CBC250F004F23FE /* eeprom.h in Sources */,
 				C21D93D11CBC250F004F23FE /* gps.h in Sources */,

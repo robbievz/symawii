@@ -34,27 +34,6 @@ unsigned char channelindex[] = { ROLLINDEX,PITCHINDEX,THROTTLEINDEX,YAWINDEX,AUX
 
 extern globalstruct global;
 
-#if CONTROL_BOARD_TYPE == CONTROL_BOARD_WLT_V202
-void initrx(void)
-{
-}
-
-void readrx(void)
-{
-    int chan;
-    uint16_t data;
-
-    for (chan = 0; chan < 8; ++chan) {
-//        data = pwmRead(chan);
-//    if (data < 750 || data > 2250)
-        data = 1500;
-
-        // convert from 1000-2000 range to -1 to 1 fixedpointnum range and low pass filter to remove glitches
-        lib_fp_lowpassfilter(&global.rxvalues[channelindex[chan]], ((fixedpointnum) data - 1500) * 131L, global.timesliver, FIXEDPOINTONEOVERONESIXTYITH, TIMESLIVEREXTRASHIFT);
-    }
-}
-
-#else
 
 void initrx(void)
 {
@@ -75,7 +54,6 @@ void readrx(void)
         lib_fp_lowpassfilter(&global.rxvalues[channelindex[chan]], ((fixedpointnum) data - 1500) * 131L, global.timesliver, FIXEDPOINTONEOVERONESIXTYITH, TIMESLIVEREXTRASHIFT);
     }
 }
-#endif
 
 #if 0
 

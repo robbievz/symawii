@@ -12,7 +12,7 @@ lib-Mini51/hal/drv_hal.o: lib-Mini51/hal/drv_hal.c lib-Mini51/hal/hal.h \
  lib-Mini51/StdDriver/inc/wdt.h lib-Mini51/hal/drv_serial.h \
  lib-Mini51/hal/drv_pwm.h lib-Mini51/hal/drv_gpio.h \
  lib-Mini51/hal/lib_timers.h lib-Mini51/hal/lib_i2c.h \
- lib-Mini51/hal/lib_spi.h src/config.h src/config_X4.h src/options.h \
+ lib-Mini51/hal/lib_spi.h src/config.h src/config_SymaX5.h src/options.h \
  src/defs.h src/config.h lib-Mini51/hal/lib_digitalio.h \
  src/projectsettings.h src/defs.h src/output.h lib-Mini51/hal/lib_fp.h
 
@@ -64,7 +64,7 @@ lib-Mini51/hal/lib_spi.h:
 
 src/config.h:
 
-src/config_X4.h:
+src/config_SymaX5.h:
 
 src/options.h:
 

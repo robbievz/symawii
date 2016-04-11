@@ -192,25 +192,6 @@ void imucalculateestimatedattitude(void)
 
     compasstimeinterval += global.timesliver;
 
-#if (COMPASS_TYPE != NO_COMPASS)
-    int gotnewcompassreading = readcompass();
-
-    if (gotnewcompassreading) {
-        // use the compass to correct the yaw in our estimated attitude.
-        // the compass vector points somewhat north, but it also points down more than north where I live, so we can't
-        // get the yaw directly from the compass vector.  Instead, we have to take a cross product of
-        // the gravity vector and the compass vector, which should point west
-        fixedpointnum westvector[3];
-
-        vectorcrossproduct(global.compassvector, global.estimateddownvector, westvector);
-
-        // use the actual compass reading to slowly adjust our estimated west vector
-        for (int x = 0; x < 3; ++x) {
-            lib_fp_lowpassfilter(&global.estimatedwestvector[x], westvector[x], compasstimeinterval >> TIMESLIVEREXTRASHIFT, ONE_OVER_ACC_COMPLIMENTARY_FILTER_TIME_PERIOD, 0);
-        }
-        compasstimeinterval = 0;
-    }
-#else
     if (compasstimeinterval > (6553L << TIMESLIVEREXTRASHIFT))  // 10 hz
     {                           // we aren't using the comopass
         // we need to make sure the west vector stays around unit length and stays perpendicular to the down vector
@@ -224,41 +205,7 @@ void imucalculateestimatedattitude(void)
 
         compasstimeinterval = 0;
     }
-#endif
 
-#if (BAROMETER_TYPE != NO_BAROMETER)
-    barotimeinterval += global.timesliver;
-
-    // Integrate the accelerometer to determine the altitude velocity
-    // Integrate again to determine position
-//normalizevector(global.estimateddownvector);
-
-    fixedpointnum verticalacceleration = lib_fp_multiply(vectordotproduct(global.acc_g_vector, global.estimateddownvector) - FIXEDPOINTONE, FIXEDPOINTCONSTANT(9.8));
-    global.altitudevelocity += (lib_fp_multiply(verticalacceleration >> TIMESLIVEREXTRASHIFT, global.timesliver));
-    global.altitude += (lib_fp_multiply(global.altitudevelocity >> TIMESLIVEREXTRASHIFT, global.timesliver));
-
-    if (readbaro()) {           // we got a new baro reading
-        fixedpointnum baroaltitudechange = global.barorawaltitude - lastbarorawaltitude;
-
-        // filter out errant baro readings.  I don't know why I need to do this, but every once in a while the baro
-        // will give a reading of 3000 meters when it should read 150 meters.
-        if (lib_fp_abs(baroaltitudechange) < FIXEDPOINTCONSTANT(500)) {
-            // Use the baro reading to adjust the altitude over time (basically a complimentary filter)
-            lib_fp_lowpassfilter(&global.altitude, global.barorawaltitude, barotimeinterval >> TIMESLIVEREXTRASHIFT, FIXEDPOINTONEOVERONE, 0);
-
-            // Use the change in barometer readings to get an altitude velocity.  Use this to adjust the altitude velocity
-            // over time (basically a complimentary filter).
-            // We don't want to divide by the time interval to get velocity (divide is expensive) to then turn around and
-            // multiply by the same time interval. So the following is the same as the lib_fp_lowpassfilter code
-            // except we eliminate the multiply.
-            fixedpointnum fraction = lib_fp_multiply(barotimeinterval >> TIMESLIVEREXTRASHIFT, FIXEDPOINTONEOVERONEHALF);
-            global.altitudevelocity = (baroaltitudechange + lib_fp_multiply((FIXEDPOINTONE) - fraction, global.altitudevelocity));
-
-            lastbarorawaltitude = global.barorawaltitude;
-            barotimeinterval = 0;
-        }
-    }
-#endif
 
     // convert our vectors to euler angles
     global.currentestimatedeulerattitude[ROLLINDEX] = lib_fp_atan2(global.estimateddownvector[XINDEX], global.estimateddownvector[ZINDEX]);
@@ -273,6 +220,6 @@ void imucalculateestimatedattitude(void)
     if (global.estimateddownvector[ZINDEX] < 1)
         xvalue = -xvalue;
 
-    global.currentestimatedeulerattitude[YAWINDEX] = lib_fp_atan2(global.estimatedwestvector[YINDEX], xvalue) + FP_MAG_DECLINATION_DEGREES;
+    global.currentestimatedeulerattitude[YAWINDEX] = lib_fp_atan2(global.estimatedwestvector[YINDEX], xvalue);
     lib_fp_constrain180(&global.currentestimatedeulerattitude[YAWINDEX]);
 }

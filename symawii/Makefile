@@ -32,7 +32,7 @@ ifeq ($(COPTER), "X4")
 MICRO="MINI51"
 endif
 
-OBJS += src/a7105.o src/accelerometer.o src/autotune.o src/symawii.o src/checkboxes.o src/eeprom.o src/gyro.o src/imu.o src/leds.o src/output.o src/pilotcontrol.o src/serial.o src/rx_x4.o src/vectors.o 
+OBJS += src/a7105.o src/accelerometer.o src/autotune.o src/symawii.o src/checkboxes.o src/eeprom.o src/gyro.o src/imu.o src/leds.o src/output.o src/pilotcontrol.o src/serial.o src/vectors.o 
 
 MINI51_OBJS += lib-Mini51/hal/drv_gpio.o lib-Mini51/hal/drv_hal.o lib-Mini51/hal/drv_pwm.o lib-Mini51/hal/drv_serial.o lib-Mini51/hal/lib_adc.o lib-Mini51/hal/lib_digitalio.o lib-Mini51/hal/lib_fp.o lib-Mini51/hal/lib_i2c.o lib-Mini51/hal/lib_serial.o lib-Mini51/hal/lib_soft_3_wire_spi.o lib-Mini51/hal/lib_timers.o 
 

@@ -300,8 +300,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #ifdef LED4
-	#define LED4_OUTPUT	LED2_OUTPUT
-	#define LED4_ON LED2_ON
+    #define LED4_OUTPUT	LED2_OUTPUT
+    #define LED4_ON LED2_ON
+#endif
+
+#ifdef LED5
+    #define LED5_OUTPUT	LED2_OUTPUT
+    #define LED5_ON LED2_ON
+#endif
+
+#ifdef LED6
+    #define LED6_OUTPUT	LED2_OUTPUT
+    #define LED6_ON LED2_ON
 #endif
 
 #else // all other control boards

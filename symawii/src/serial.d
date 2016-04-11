@@ -11,7 +11,7 @@ src/serial.o: src/serial.c lib-Mini51/hal/lib_serial.h \
  lib-Mini51/StdDriver/inc/pwm.h lib-Mini51/StdDriver/inc/spi.h \
  lib-Mini51/StdDriver/inc/timer.h lib-Mini51/StdDriver/inc/uart.h \
  lib-Mini51/StdDriver/inc/wdt.h src/symawii.h src/rx.h src/defs.h \
- src/config.h src/config_X4.h src/options.h \
+ src/config.h src/config_SymaX5.h src/options.h \
  lib-Mini51/hal/lib_digitalio.h src/projectsettings.h src/output.h \
  src/checkboxes.h src/vectors.h src/serial.h src/compass.h src/eeprom.h \
  src/imu.h src/gps.h
@@ -64,7 +64,7 @@ src/defs.h:
 
 src/config.h:
 
-src/config_X4.h:
+src/config_SymaX5.h:
 
 src/options.h:
 
