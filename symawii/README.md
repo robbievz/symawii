@@ -1,30 +1,20 @@
 Symawii for Syma X5C
 =======
 
-This is a port of bradwii to another ARM architecture, Nuvoton Mini51 which is represented
+This is a port of bradwii to the Syma X5c quad.  It runs another ARM architecture, Nuvoton Mini51 which is represented
 by commercial microhelis WL-Toys V202, V252, and JXD JD-385. For hardware description
 details see https://github.com/hackocopter/JD385_Documentation .
 
-Briefly, it uses MINI54ZAN ARM MCU with 16KB ROM and 2KB RAM, combined gyro/accelerometer
+Briefly, the Syma X5C  uses Nuvoton MINI54ZAN ARM MCU with 16KB ROM and 2KB RAM, combined gyro/accelerometer
 InvenSense MPU-6050, and nRF24L01+ clone Beken BK2423.
 
-Hubsan X4 H107 serie uses Invensense MPU-3050 gyro, mCube MC3210 accelerometer and A7105 RF.
 
-Hopefully it also will allow us to port it to similar ARM platform, Nuvoton M051,
-which is represented by HiSky HMX120 (former FF120) and its rebadge HobbyKing Q-BOT micro.
 
-It uses M058ZBN ARM MCU with 32KB ROM and 4KB RAM, gyro InvenSense MPU-3050, supposedly
-accelerometer Freescale MMA8452Q (maybe ST LIS3DH), and nRF24L01 clone Si24R1.
-
-Datasheets for HMX120 are at http://www.rcgroups.com/forums/showthread.php?t=1826018&page=51#post24710038
-
-#### The H107L uses the following hardware
+#### The Syma X5C uses the following hardware
  * Nuvoton MINI54ZAN ARM Cortex-M0
- * AMICCOM A7105 2.5GHz transceiver
- * mCube MC3210 3-Axis Accelerometer
- * InvenSense MPU-3050 3-Axis MEMS Gyroscope
+ * Beken BK2423 2.4GHz transceiver
+ * InvenSense MPU-6050 6-Axis MEMS Gyroscope/accelerometer
 
-TheLastMutt has made lots of improvements to the H107L port, they're merged into this repo and still builds with Keil.
 
 extra notes from TheLastMutt:
 ======
@@ -83,4 +73,4 @@ Credits
  * The Mini54ZAN ARM port to V202/JD385 was done by Victor: https://github.com/victzh/bradwii
  * The Hubsan X4 H107L port was done by Goebish: https://github.com/goebish/bradwii-X4
  * Extra work on the H107L port by TheLastMutt: https://github.com/TheLastMutt/bradwii-x4-gcc
- * Robbievz for the stripped-down version customized for the Syma X5C 
+ * Robbievz for the stripped-down version customized for the Syma X5C https://github.com/robbievz/symawii.git
