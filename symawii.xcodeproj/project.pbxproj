@@ -756,11 +756,12 @@
 		};
 		C21D92B61CBC23E2004F23FE /* Make */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "make -C \"$(PROJECT)\"";
+			buildArgumentsString = "-C \"$(PROJECT)\"";
 			buildConfigurationList = C21D930F1CBC23E3004F23FE /* Build configuration list for PBXLegacyTarget "Make" */;
 			buildPhases = (
 			);
-			buildToolPath = make;
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = Make;
@@ -1192,12 +1193,17 @@
 		C21D93101CBC23E3004F23FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PATH = "/usr/bin:$(PATH):$(PROJECT_DIR)";
+				SKETCHBOOK_DIR = "$(PROJECT_DIR)";
+				TOOCHAIN = TOOLCHAIN_GCC_ARM;
 			};
 			name = Debug;
 		};
 		C21D93111CBC23E3004F23FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PATH = "/usr/bin:$(PATH):$(PROJECT_DIR)";
+				TOOCHAIN = "";
 			};
 			name = Release;
 		};
