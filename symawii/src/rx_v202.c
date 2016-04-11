@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 #include "hal.h"
-#include "symawii.h"
+#include "bradwii.h"
 #include "rx.h"
 #include "defs.h"
 #include "lib_timers.h"

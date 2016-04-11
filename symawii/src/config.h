@@ -21,5 +21,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // to change.  To see what the defaults are, look in defs.h
 // The options are defined in options.h
 
-
-#include "config_SymaX5.h"
+#if defined(V202_BUILD)
+#include "config_V202.h"
+#elif defined(JD385_BUILD)
+#include "config_JD385.h"
+#elif defined(X4_BUILD)
+#include "config_X4.h"
+#else
+#include "config_STM32.h"
+#endif

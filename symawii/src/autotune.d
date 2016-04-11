@@ -1,5 +1,5 @@
-src/autotune.o: src/autotune.c src/config.h src/config_SymaX5.h \
- src/options.h src/symawii.h lib-Mini51/hal/lib_fp.h lib-Mini51/hal/hal.h \
+src/autotune.o: src/autotune.c src/config.h src/config_X4.h src/options.h \
+ src/bradwii.h lib-Mini51/hal/lib_fp.h lib-Mini51/hal/hal.h \
  lib-Mini51/Device/Nuvoton/Mini51Series/Include/Mini51Series.h \
  lib-Mini51/CMSIS/Include/core_cm0.h \
  lib-Mini51/CMSIS/Include/core_cmInstr.h \
@@ -16,11 +16,11 @@ src/autotune.o: src/autotune.c src/config.h src/config_SymaX5.h \
 
 src/config.h:
 
-src/config_SymaX5.h:
+src/config_X4.h:
 
 src/options.h:
 
-src/symawii.h:
+src/bradwii.h:
 
 lib-Mini51/hal/lib_fp.h:
 

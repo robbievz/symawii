@@ -1,4 +1,4 @@
-src/rx_x4.o: src/rx_x4.c src/symawii.h lib-Mini51/hal/lib_fp.h \
+src/rx_x4.o: src/rx_x4.c src/bradwii.h lib-Mini51/hal/lib_fp.h \
  lib-Mini51/hal/hal.h \
  lib-Mini51/Device/Nuvoton/Mini51Series/Include/Mini51Series.h \
  lib-Mini51/CMSIS/Include/core_cm0.h \
@@ -16,7 +16,7 @@ src/rx_x4.o: src/rx_x4.c src/symawii.h lib-Mini51/hal/lib_fp.h \
  lib-Mini51/hal/lib_soft_3_wire_spi.h lib-Mini51/hal/lib_timers.h \
  src/a7105.h src/leds.h
 
-src/symawii.h:
+src/bradwii.h:
 
 lib-Mini51/hal/lib_fp.h:
 

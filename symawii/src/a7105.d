@@ -1,6 +1,6 @@
 src/a7105.o: src/a7105.c src/a7105.h lib-Mini51/hal/lib_soft_3_wire_spi.h \
  lib-Mini51/hal/lib_digitalio.h src/projectsettings.h src/defs.h \
- src/config.h src/config_SymaX5.h src/options.h src/output.h \
+ src/config.h src/config_X4.h src/options.h src/output.h \
  lib-Mini51/hal/lib_fp.h lib-Mini51/hal/hal.h \
  lib-Mini51/Device/Nuvoton/Mini51Series/Include/Mini51Series.h \
  lib-Mini51/CMSIS/Include/core_cm0.h \
@@ -26,7 +26,7 @@ src/defs.h:
 
 src/config.h:
 
-src/config_SymaX5.h:
+src/config_X4.h:
 
 src/options.h:
 

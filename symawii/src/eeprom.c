@@ -16,7 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include "eeprom.h"
-#include "symawii.h"
+#include "bradwii.h"
 
 extern usersettingsstruct usersettings;
 extern globalstruct global;
